@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Project Context Manifest",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "project",
+    "repository",
+    "workflow",
+    "paths"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "project": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "description"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "repository": {
+      "type": "object",
+      "required": [
+        "full_name",
+        "default_branch"
+      ],
+      "properties": {
+        "full_name": {
+          "type": "string",
+          "pattern": "^[^/]+/[^/]+$"
+        },
+        "default_branch": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": true
+    },
+    "workflow": {
+      "type": "object",
+      "required": [
+        "mode",
+        "require_verification",
+        "require_handoff",
+        "human_approval_for_sensitive_changes"
+      ],
+      "properties": {
+        "mode": {
+          "enum": [
+            "manual",
+            "semi-automated",
+            "automated"
+          ]
+        },
+        "require_verification": {
+          "type": "boolean"
+        },
+        "require_handoff": {
+          "type": "boolean"
+        },
+        "human_approval_for_sensitive_changes": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": true
+    },
+    "paths": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

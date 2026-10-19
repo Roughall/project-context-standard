@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Project status vocabulary",
+  "type": "object",
+  "properties": {
+    "status": {
+      "enum": [
+        "PLANNED",
+        "IN_PROGRESS",
+        "BLOCKED",
+        "VERIFICATION_REQUIRED",
+        "PASS",
+        "FAIL",
+        "DEFERRED"
+      ]
+    }
+  },
+  "required": [
+    "status"
+  ],
+  "additionalProperties": false
+}
