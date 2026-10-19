@@ -1,0 +1,21 @@
+schema_version: "1.0"
+project:
+  id: "replace-with-project-id"
+  name: "Replace with project name"
+  description: "Short description of the project."
+repository:
+  full_name: "owner/repository"
+  default_branch: "main"
+workflow:
+  mode: "semi-automated"
+  require_verification: true
+  require_handoff: true
+  human_approval_for_sensitive_changes: true
+paths:
+  instructions: "AGENTS.md"
+  status: "PROJECT_STATUS.md"
+  architecture: "ARCHITECTURE.md"
+  decisions: "DECISIONS.md"
+  tests: "TEST_RESULTS.md"
+  changelog: "CHANGELOG.md"
+  handoff: "HANDOFF.md"
