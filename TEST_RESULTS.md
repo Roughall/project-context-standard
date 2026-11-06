@@ -1,10 +1,10 @@
 # Test Results
 
-Record actual verification, not intended behavior.
-
 | Date | Check / command | Status | Result / evidence |
 |---|---|---|---|
-| YYYY-MM-DD | Example test command | VERIFICATION_REQUIRED | Not run yet |
+| 2026-11-06 | Inspect repository instructions and context files via GitHub connector | PASS | Read `AGENTS.md`, `STANDARD.md`, `project.yaml`, `PROJECT_STATUS.md`, `ARCHITECTURE.md`, `DECISIONS.md`, `TEST_RESULTS.md`, `CHANGELOG.md`, and `HANDOFF.md` |
+| 2026-11-06 | Confirm repository permission and default branch | PASS | `Roughall/project-context-standard`; default branch `main`; push permission confirmed |
+| 2026-11-06 | Validate context files with `python scripts/validate_context.py` | VERIFICATION_REQUIRED | Not run; no local command execution in this workflow |
 
 ## Rules
 - Record the command/check and its actual output or a stable evidence reference.
