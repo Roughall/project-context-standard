@@ -13,6 +13,8 @@ Maintain reusable repository-first context and agent handoff standards.
 - A Video_AI retention and storytelling framework v2.0 has been committed under `docs/`.
 - The framework is documented as working guidance based on four user-provided short-form videos/captions and project discussion.
 
+- A Bandaro Betta content strategy checkpoint v1.0 has been committed under `docs/` as a creative planning artifact; its concepts and content mix remain hypotheses pending pilot results.
+
 ## Milestones
 | Milestone | Status | Evidence / notes |
 |---|---|---|
