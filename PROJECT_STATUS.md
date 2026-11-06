@@ -1,23 +1,27 @@
 # Project Status
 
-- **Project:** Replace with project name
+- **Project:** Project Context Standard
 - **Overall status:** IN_PROGRESS
-- **Last updated:** YYYY-MM-DD
+- **Last updated:** 2026-11-06
 
 ## Objective
-What is the project trying to achieve?
+Maintain reusable repository-first context and agent handoff standards.
 
 ## Verified state
-- List only facts checked against the current repository or actual test evidence.
-- Link to relevant commits, test logs, screenshots, or evidence files where available.
+- Repository: `Roughall/project-context-standard`
+- Default branch: `main`
+- A Video_AI retention and storytelling framework v2.0 has been committed under `docs/`.
+- The framework is documented as working guidance based on four user-provided short-form videos/captions and project discussion.
 
 ## Milestones
 | Milestone | Status | Evidence / notes |
 |---|---|---|
-| Example milestone | PLANNED | Not started |
+| Add Video_AI retention/storytelling guidance | PASS | Commit: 3fc6d1e578b2c454cec9b5195353e7e994f3fe17 |
+| Run repository validator | VERIFICATION_REQUIRED | Validator not run in this connector workflow |
 
 ## Blockers
-- None known / describe concrete blockers.
+- None for the documentation addition.
+- Full repository validation remains unverified.
 
 ## Next action
-One specific action, with acceptance criteria.
+Run `python scripts/validate_context.py` in a local checkout and review whether project-specific docs should be moved to a dedicated Video_AI repository.
