@@ -33,3 +33,12 @@ Maintain the repository-first context standard and use it to keep project contex
 ## Tests
 - Run and results: Repository metadata, permissions, instructions, and context documents inspected through GitHub connector.
 - Still required: `python scripts/validate_context.py` in a local checkout.
+
+
+## Bandaro Betta content strategy checkpoint (2026-11-06)
+- Added `docs/BANDARO_BETTA_CONTENT_STRATEGY_CHECKPOINT_v1.md`.
+- The checkpoint captures eight content concepts; initial pilot priorities are Betta Detective, One Fish, One Story, and What Would You Choose? The three core recommendations are discovery, trust-building, and community formats.
+- The proposed 50/30/20 discovery/trust/commerce mix is a hypothesis, not a validated rule.
+- Important guardrails: use real footage as the source of truth for actual sale fish and husbandry claims; label artistic AI visualizations; verify biological claims; prioritize fish welfare; do not make unsupported genetics, health, or quality claims.
+- Next step: establish target buyer and actual stock mix, produce a small pilot batch, and compare median views, retention, saves/shares, follows, shop clicks, inquiries, orders, and production effort.
+- Validation: checkpoint file creation and related documentation commits succeeded. `python scripts/validate_context.py` remains `VERIFICATION_REQUIRED` because it was not run in a local checkout.
