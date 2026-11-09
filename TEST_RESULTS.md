@@ -8,7 +8,8 @@
 | 2026-11-06 | Create and read back channel pivot checkpoint | PASS | Created and fetched `docs/CHANNEL_PIVOT_AND_NICHE_SEPARATION_CHECKPOINT_v1.md`; commit `a72ef495336264c82117dda93223eaef8c3211a6`; file content confirmed |
 | 2026-11-09 | Create and read back retention-first Indonesian Shorts formats checkpoint | PASS | Created and fetched `docs/RETENTION_FIRST_INDONESIAN_SHORTS_FORMATS_CHECKPOINT_v1.md`; creation commit `450cbea64f15d723756eb9b351f4b1c674b41591`; content and updated context files confirmed on `main` |
 | 2026-11-10 | Create and read back DOLA shot-controlled production checkpoint | PASS | Created `docs/DOLA_SHOT_CONTROLLED_PRODUCTION_CHECKPOINT_v1.md`; commit `105b780b2801d1704823493c777384f81a8e1afc`; creation result observed. Read-back verification pending. |
-| 2026-11-10 | Validate revised DOLA shot-control workflow in actual generation | VERIFICATION_REQUIRED | Rules documented; no revised pilot generated or tested yet. |
+| 2026-11-10 | Review Misi Mustahil Klip 1 horizontal 16:9 generation | VERIFICATION_REQUIRED | Reviewed 1280×720, 24 fps, approximately 10.04-second output against a 6-second prompt. Setting and broad lift/lower action were present, but bag-to-rear-seat fit conflict and immediate hook were weak; rear basket weakened limited-capacity premise; requested push-in unclear; Dola AI watermark/text visible. Editorial score 6/10. Exact character/wardrobe and prop matching against master references not conclusively verified. See `docs/DOLA_SHOT_CONTROLLED_PRODUCTION_CHECKPOINT_v1.md`. |
+| 2026-11-10 | Validate revised DOLA Klip 1 after targeted corrections | VERIFICATION_REQUIRED | Next generation not yet produced; Klip 1 is not approved for continuation to Klip 2. |
 | 2026-11-06 | Validate context files with `python scripts/validate_context.py` | VERIFICATION_REQUIRED | Not run; no local command execution in this workflow |
 
 ## Rules
