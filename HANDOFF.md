@@ -13,7 +13,7 @@ Maintain the repository-first context standard and use it to keep project contex
 - Added `docs/VIDEO_AI_RETENTION_STORYTELLING_FRAMEWORK_v2.md`.
 - Added `docs/BANDARO_BETTA_CONTENT_STRATEGY_CHECKPOINT_v1.md`.
 - Added `docs/CHANNEL_PIVOT_AND_NICHE_SEPARATION_CHECKPOINT_v1.md`.
-- Added `docs/RETENTION_FIRST_INDONESIAN_SHORTS_FORMATS_CHECKPOINT_v1.md` (commit `450cbea64f15d723756eb9b351f4b1c674b41591`).
+- Added `docs/RETENTION_FIRST_INDONESIAN_SHORTS_FORMATS_CHECKPOINT_v1.md` (creation commit `450cbea64f15d723756eb9b351f4b1c674b41591`); fetched the file and updated context documents back from `main`.
 - The new checkpoint documents five retention-first formats and recommends Sidang Warga for the first pilot, subject to competitor review and pilot validation.
 
 ## Next actions
@@ -40,5 +40,5 @@ Maintain the repository-first context standard and use it to keep project contex
 - Keep fictional/dramatized stories distinct from verified real events and avoid targeting identifiable private people.
 
 ## Tests
-- Run and results: New checkpoint file creation committed to `main`.
-- Still required: Fetch/read-back verification and `python scripts/validate_context.py` in a local checkout.
+- Run and results: New checkpoint and updated context files fetched successfully from GitHub `main`.
+- Still required: `python scripts/validate_context.py` in a local checkout.
