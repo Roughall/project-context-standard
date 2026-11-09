@@ -138,6 +138,38 @@ Use this structure for every DOLA generation:
 - **NEGATIVE CONSTRAINTS:**
 - **OUTPUT STYLE / ASPECT RATIO:**
 
-## 9. Status and limitations
+## 9. Case study update: Misi Mustahil — Klip 1, horizontal 16:9 test (2026-11-10)
+
+A second Klip 1 generation was reviewed after changing the output canvas to horizontal 16:9. The observed file properties were 1280×720, 24 fps, and approximately 10.04 seconds, although the prompt requested 6 seconds.
+
+### Observed strengths
+- Traditional-market context, Bambang, scooter, and grocery pile were visible together.
+- The clip contained one broad action sequence: lifting a grocery bag and lowering it again.
+- The scooter remained stationary; the groceries remained present.
+- The horizontal composition provided room to see the character, vehicle, and groceries together.
+
+### Observed gaps against the prompt
+- The action did not clearly show Bambang attempting to place the bag onto the rear seat and discovering that the available space was insufficient. It read more like lifting/moving the bag.
+- The visual contradiction between the bag size and available scooter capacity was not strong enough.
+- The opening held a relatively passive standing beat before the action began, delaying the hook.
+- The requested slow push-in was not clearly expressed.
+- Actual duration exceeded the requested six seconds.
+- A visible Dola AI watermark/text was present, despite the no-watermark instruction.
+- The scooter appeared to have a rear basket/carrying structure that weakened the intended small-capacity visual premise.
+
+### Evaluation and next-generation corrections
+- Working review score: 6/10; this is an editorial assessment, not a measured model metric.
+- Keep 16:9 as a valid test format; the aspect ratio itself was not identified as the cause of the action-compliance gaps.
+- Start with the challenge already legible in frame one; remove the passive opening hold.
+- Use a small, simple scooter without a large pre-fitted rear basket or preloaded cargo that undermines the limited-capacity premise.
+- Make the primary action explicit and observable: Bambang brings the oversized grocery bag toward the rear seat, makes a clear but safe attempt to position it, recognizes that it does not fit, and lowers it back to the ground.
+- Keep Bambang, the rear seat, the bag, and the grocery pile in one continuous medium-wide three-quarter composition so the spatial conflict can be read.
+- Keep the six-second target in the next prompt, but treat actual generated duration as an independently checked result rather than an assumed guarantee.
+- Regenerate only Klip 1 with these targeted changes, then compare it against this test.
+
+### Verification limits
+Character likeness/wardrobe and exact grocery matching against the approved master references were not conclusively verified in this review. The next test must compare the actual attached references with the generated output. The 16:9 test does not validate the entire DOLA workflow or later story beats.
+
+## 10. Status and limitations
 
 This checkpoint is an approved working production guardrail based on one reviewed pilot draft. It is not evidence that the revised prompts will achieve perfect DOLA adherence. DOLA behavior, reference controls, and model limits must be verified in actual generations. Record failures and revise one major variable at a time.
