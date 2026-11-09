@@ -11,7 +11,7 @@ Maintain the repository-first context standard and use it to keep project contex
 - GitHub connector writes to the default branch are available.
 
 ## Completed and verified
-- Created `docs/DOLA_SHOT_CONTROLLED_PRODUCTION_CHECKPOINT_v1.md` on `main` (commit `105b780b2801d1704823493c777384f81a8e1afc`). The GitHub create operation succeeded; fetch/read-back verification is still pending.
+- Created `docs/DOLA_SHOT_CONTROLLED_PRODUCTION_CHECKPOINT_v1.md` on `main` (commit `105b780b2801d1704823493c777384f81a8e1afc`). The GitHub create operation succeeded; checkpoint and updated context files were fetched successfully from `main`.
 - Added `docs/VIDEO_AI_RETENTION_STORYTELLING_FRAMEWORK_v2.md`.
 - Added `docs/BANDARO_BETTA_CONTENT_STRATEGY_CHECKPOINT_v1.md`.
 - Added `docs/CHANNEL_PIVOT_AND_NICHE_SEPARATION_CHECKPOINT_v1.md`.
@@ -19,8 +19,7 @@ Maintain the repository-first context standard and use it to keep project contex
 - The new checkpoint documents five retention-first formats and recommends Sidang Warga for the first pilot, subject to competitor review and pilot validation.
 
 ## Next actions
-1. Fetch the new DOLA checkpoint and verify its committed contents.
-2. Rebuild the Misi Mustahil pilot as numbered shots with actual attached subject/object/environment references, explicit starting/ending states, and one primary action per generation.
+1. Rebuild the Misi Mustahil pilot as numbered shots with actual attached subject/object/environment references, explicit starting/ending states, and one primary action per generation.
 3. Generate and inspect each shot before proceeding; use approved final frames as continuity references.
 4. Evaluate whether hook, escalation, and destination payoff are visible in the assembled cut.
 5. Continue the existing competitor-audit and pilot-validation actions below.
