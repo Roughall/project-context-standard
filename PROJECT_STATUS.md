@@ -8,6 +8,9 @@
 Maintain reusable repository-first context and agent handoff standards.
 
 ## Verified state
+- A DOLA shot-controlled production checkpoint v1.0 has been committed under `docs/DOLA_SHOT_CONTROLLED_PRODUCTION_CHECKPOINT_v1.md`. It establishes mandatory actual image references, one-primary-action shot prompts, starting/ending states, continuity-frame handoff, and hook/escalation/payoff acceptance gates. The checkpoint is based on review of the first Misi Mustahil pilot draft; revised DOLA adherence remains unverified.
+
+## Verified state
 - Repository: `Roughall/project-context-standard`
 - Default branch: `main`
 - A Video_AI retention and storytelling framework v2.0 has been committed under `docs/`.
@@ -22,6 +25,8 @@ Maintain reusable repository-first context and agent handoff standards.
 | Add Bandaro Betta content strategy checkpoint | PASS | Commit: 3b6e7bf81f1b5ed832794fdd01d9716e775a80e2 |
 | Add channel pivot and niche separation checkpoint | PASS | Commit: a72ef495336264c82117dda93223eaef8c3211a6 |
 | Add retention-first Indonesian Shorts formats checkpoint | PASS | Commit: 450cbea64f15d723756eb9b351f4b1c674b41591 |
+| Add DOLA shot-controlled production checkpoint | PASS | Commit: 105b780b2801d1704823493c777384f81a8e1afc |
+| Validate revised DOLA workflow in a generated pilot | VERIFICATION_REQUIRED | Checkpoint documented; revised generation has not yet been produced and evaluated |
 | Run repository validator | VERIFICATION_REQUIRED | Validator not run in this connector workflow |
 
 ## Blockers
