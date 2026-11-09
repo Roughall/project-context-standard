@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-09 — Add retention-first Indonesian Shorts formats checkpoint v1.0
+- Added `docs/RETENTION_FIRST_INDONESIAN_SHORTS_FORMATS_CHECKPOINT_v1.md`.
+- Captured five concrete repeatable formats: Sidang Warga, Misi Mustahil Orang Indonesia, Tebak Sebelum Terungkap, 1 Benda 5 Bencana, and Pilihan yang Salah.
+- Recommended Sidang Warga as the first pilot candidate based on its clear conflict, progressive evidence, verdict payoff, and repeatable everyday case engine.
+- Added a three-pilot validation plan, retention/engagement/production metrics, editorial guardrails, and a competitive differentiation status of `VERIFICATION_REQUIRED`.
+- Verification: File creation committed successfully; read-back and repository validator remain pending.
+
 ## 2026-11-06 — Add channel pivot and niche separation checkpoint v1.0
 - Added `docs/CHANNEL_PIVOT_AND_NICHE_SEPARATION_CHECKPOINT_v1.md`.
 - Recorded the recommendation to preserve the existing Video_AI channel and create a separate Bandaro Betta channel when audience promises remain materially different.
@@ -8,7 +15,7 @@
 
 ## 2026-11-06 — Add Bandaro Betta content strategy checkpoint v1.0
 - Added `docs/BANDARO_BETTA_CONTENT_STRATEGY_CHECKPOINT_v1.md` with eight proposed content concepts, initial pilot priorities, a Betta Detective sample, a proposed discovery/trust/commerce mix, Betta Identity Card concept, measurement plan, and editorial guardrails.
-- This is a creative planning checkpoint; niche performance and commercial impact remain unvalidated until pilots are published and measured.
+- This is a creative planning checkpoint; niche performance and commercial impact remain hypotheses pending pilot results.
 - Verification: File creation committed successfully; repository validator remains `VERIFICATION_REQUIRED`.
 
 Record meaningful project changes in reverse chronological order.
