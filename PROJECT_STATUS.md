@@ -8,7 +8,7 @@
 Maintain reusable repository-first context and agent handoff standards.
 
 ## Verified state
-- A DOLA shot-controlled production checkpoint v1.0 has been committed under `docs/DOLA_SHOT_CONTROLLED_PRODUCTION_CHECKPOINT_v1.md`. It establishes mandatory actual image references, one-primary-action shot prompts, starting/ending states, continuity-frame handoff, and hook/escalation/payoff acceptance gates. The checkpoint is based on review of the first Misi Mustahil pilot draft; revised DOLA adherence remains unverified.
+- The DOLA shot-controlled production checkpoint at `docs/DOLA_SHOT_CONTROLLED_PRODUCTION_CHECKPOINT_v1.md` now includes a second Misi Mustahil Klip 1 test: horizontal 16:9, 1280×720, 24 fps, approximately 10.04 seconds against a 6-second prompt. Review found the setting/character/vehicle/groceries and broad lift-lower action, but the rear-seat fit conflict and immediate hook were weak; a rear basket undermined the small-capacity premise; requested push-in was unclear; visible Dola AI watermark/text remained. Working editorial score: 6/10. Character/wardrobe likeness and exact prop matching against master references remain unverified.
 - Repository: `Roughall/project-context-standard`
 - Default branch: `main`
 - A Video_AI retention and storytelling framework v2.0 has been committed under `docs/`.
@@ -24,7 +24,8 @@ Maintain reusable repository-first context and agent handoff standards.
 | Add channel pivot and niche separation checkpoint | PASS | Commit: a72ef495336264c82117dda93223eaef8c3211a6 |
 | Add retention-first Indonesian Shorts formats checkpoint | PASS | Commit: 450cbea64f15d723756eb9b351f4b1c674b41591 |
 | Add DOLA shot-controlled production checkpoint | PASS | Commit: 105b780b2801d1704823493c777384f81a8e1afc |
-| Validate revised DOLA workflow in a generated pilot | VERIFICATION_REQUIRED | Checkpoint documented; revised generation has not yet been produced and evaluated |
+| Validate DOLA Klip 1 prompt adherence (horizontal 16:9 iteration) | VERIFICATION_REQUIRED | Second generation reviewed; partial compliance only. Targeted regeneration still required |
+| Validate revised DOLA workflow across the pilot | VERIFICATION_REQUIRED | Klip 1 is not approved; later shots and full-story payoff remain unverified |
 | Run repository validator | VERIFICATION_REQUIRED | Validator not run in this connector workflow |
 
 ## Blockers
@@ -34,4 +35,4 @@ Maintain reusable repository-first context and agent handoff standards.
 - No pilot performance data exists for the new formats.
 
 ## Next action
-Conduct a focused competitor audit, then decide whether to proceed with three Sidang Warga pilots. Review the pilots using retention, viewed-vs-swiped, completion/replay, engagement quality, and production-effort evidence. Run `python scripts/validate_context.py` in a local checkout when available.
+Regenerate Misi Mustahil Klip 1 with the targeted blocking/composition corrections in the DOLA checkpoint; compare against actual attached master references before approving Klip 2. Then continue the focused competitor audit and decide whether to proceed with three Sidang Warga pilots. Review the pilots using retention, viewed-vs-swiped, completion/replay, engagement quality, and production-effort evidence. Run `python scripts/validate_context.py` in a local checkout when available.
