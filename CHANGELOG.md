@@ -1,3 +1,9 @@
+## 2026-11-10 — Record Misi Mustahil Klip 1 horizontal 16:9 test
+- Updated `docs/DOLA_SHOT_CONTROLLED_PRODUCTION_CHECKPOINT_v1.md` with the second Klip 1 generation review (1280×720, 24 fps, approximately 10.04 seconds versus 6 seconds requested).
+- Recorded strengths, concrete prompt mismatches, a working editorial score of 6/10, and targeted corrections: immediate hook, smaller scooter without a large rear basket, explicit rear-seat fit attempt, continuous composition, and actual-duration inspection.
+- Character/wardrobe likeness and exact prop-reference matching remain unverified; Klip 1 remains unapproved and must be regenerated before Klip 2.
+- Verification: video reviewed; repository validator remains `VERIFICATION_REQUIRED`.
+
 # Changelog
 
 ## 2026-11-09 — Add retention-first Indonesian Shorts formats checkpoint v1.0
