@@ -2,15 +2,13 @@
 
 - **Project:** Project Context Standard
 - **Overall status:** IN_PROGRESS
-- **Last updated:** 2026-11-09
+- **Last updated:** 2026-11-10
 
 ## Objective
 Maintain reusable repository-first context and agent handoff standards.
 
 ## Verified state
 - A DOLA shot-controlled production checkpoint v1.0 has been committed under `docs/DOLA_SHOT_CONTROLLED_PRODUCTION_CHECKPOINT_v1.md`. It establishes mandatory actual image references, one-primary-action shot prompts, starting/ending states, continuity-frame handoff, and hook/escalation/payoff acceptance gates. The checkpoint is based on review of the first Misi Mustahil pilot draft; revised DOLA adherence remains unverified.
-
-## Verified state
 - Repository: `Roughall/project-context-standard`
 - Default branch: `main`
 - A Video_AI retention and storytelling framework v2.0 has been committed under `docs/`.
