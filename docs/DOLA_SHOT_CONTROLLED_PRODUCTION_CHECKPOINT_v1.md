@@ -1,6 +1,6 @@
 # Video_AI — DOLA Shot-Controlled Production Checkpoint v1.0
 
-> **Parent standard:** This project-specific checkpoint supplements and does not override the mandatory cross-niche rules in [`DOLA_PRODUCTION_STANDARD_v1.md`](DOLA_PRODUCTION_STANDARD_v1.md). All DOLA work must follow that standard, regardless of niche or theme.
+> **Parent standard:** This project-specific checkpoint supplements and does not override the mandatory cross-niche rules in [`DOLA_PRODUCTION_STANDARD_v1.md`](DOLA_PRODUCTION_STANDARD_v1.md). All DOLA work must follow that standard, regardless of niche or theme. Every prompt begins with the required AI-character disclosure; authentic real-animal/product footage must be explicitly distinguished from AI-generated fictional characters.
 
 - **Status:** APPROVED AS WORKING PRODUCTION GUARDRAIL
 - **Date:** 2026-11-10
