@@ -8,6 +8,7 @@
 - **Audience:** General Indonesian audience, including people who are not currently betta hobbyists.
 - **Tone:** Mixed humor — receh, relatable, light satire, and absurd — using casual everyday Indonesian.
 - **Production standard:** All DOLA prompts and generations for this niche must follow the mandatory cross-niche [`DOLA Production Standard`](DOLA_PRODUCTION_STANDARD_v1.md). Niche changes do not waive actual image references, reference mapping, shot-by-shot control, continuity, or review gates.
+- **AI-character disclosure:** Begin every DOLA prompt with the required statement that fictional human/animal characters in the AI-generated scene are AI-created. For real betta footage used as authentic product evidence, immediately clarify that the fish is real and must not be represented as AI-generated or replaced by generated fish.
 
 ## 1. Approved working niche
 
