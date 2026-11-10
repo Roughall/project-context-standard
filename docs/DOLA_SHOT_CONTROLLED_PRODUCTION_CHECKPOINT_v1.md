@@ -1,5 +1,7 @@
 # Video_AI — DOLA Shot-Controlled Production Checkpoint v1.0
 
+> **Parent standard:** This project-specific checkpoint supplements and does not override the mandatory cross-niche rules in [`DOLA_PRODUCTION_STANDARD_v1.md`](DOLA_PRODUCTION_STANDARD_v1.md). All DOLA work must follow that standard, regardless of niche or theme.
+
 - **Status:** APPROVED AS WORKING PRODUCTION GUARDRAIL
 - **Date:** 2026-11-10
 - **Scope:** DOLA-based live-action / photorealistic short-form video generation.
