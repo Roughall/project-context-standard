@@ -1,6 +1,7 @@
-# DOLA Production Standard v1.0
+# DOLA Production Standard v1.1
 
 - **Status:** APPROVED — MANDATORY CROSS-NICHE STANDARD
+- **Revision:** v1.1 adds a mandatory AI-character disclosure at the beginning of every DOLA prompt. v1.0 reference, shot-control, and continuity requirements remain in force.
 - **Date:** 2026-11-10
 - **Scope:** Every DOLA-assisted video project, channel, niche, genre, subject, object, and environment in this workspace.
 - **Authority:** This is the parent production standard. Niche/content checkpoints define creative strategy; they do not override this standard unless a formally approved revision is recorded.
@@ -11,7 +12,19 @@
 
 Before writing any DOLA prompt, the agent must consult this file and the relevant project-specific DOLA checkpoint. Do not ask the owner to repeat an already approved rule.
 
-## 2. Mandatory visual-reference workflow
+## 2. Mandatory AI-character disclosure
+
+**Every DOLA prompt must begin with this disclosure, before the shot description or generation instructions:**
+
+> All fictional characters depicted in this AI-generated scene, whether human or animal, are AI-created characters. Do not present an AI-generated character as a real person or real animal.
+
+Apply this statement to fictional/generative characters only. It must not falsely label a real person, real animal, or authentic product footage supplied as factual source material as AI-created. When a shot includes a real animal/product (for example, actual betta fish footage for sale), add this clarification immediately after the disclosure:
+
+> Any real animal or product shown as authentic reference or source footage is real, not AI-generated. Preserve its actual appearance and condition; do not replace it with an AI-generated substitute.
+
+For a shot containing only AI-generated fictional human/animal characters, the first disclosure is sufficient. For mixed scenes, use both statements. The disclosure is a prompt instruction, not a guarantee that a platform watermark or viewer-facing disclosure is automatically rendered; add any required viewer-facing label in editing where appropriate.
+
+## 3. Mandatory visual-reference workflow
 
 For every shot, identify which visual elements must remain consistent and prepare actual image files for the relevant DOLA reference inputs, where supported:
 
@@ -35,7 +48,7 @@ A category is required whenever it materially affects the shot. If a category is
 8. If the user has not supplied a required image, provide a reference checklist or request the missing image. Do not silently replace it with a text-only description.
 9. For real sale products, actual product footage/photos are the source of truth. Do not generate a substitute product or materially alter its appearance, condition, dimensions, or behavior.
 
-## 3. Required pre-prompt asset map
+## 4. Required pre-prompt asset map
 
 Before drafting prompts, create an asset map:
 
@@ -49,7 +62,7 @@ Before drafting prompts, create an asset map:
 
 Never mark an asset READY until the actual file is available and intended for attachment.
 
-## 4. Shot-controlled prompt contract
+## 5. Shot-controlled prompt contract
 
 Direct DOLA shot by shot, not with a whole-story prompt that expects autonomous film direction. Each generation should normally contain one primary continuous action.
 
@@ -68,11 +81,11 @@ Every shot prompt must specify:
 
 Do not overload a short clip with unrelated actions, multiple scene changes, or unnecessary camera moves. Text that requires exact spelling, price, stock ID, or typography should normally be added in editing.
 
-## 5. Story gate
+## 6. Story gate
 
 Before generation, define the episode's hook, central question/conflict, progression, escalation, and visible payoff. The first frame must communicate the premise; decorative establishing shots must not delay the hook. Every shot must advance the story or reveal product information relevant to the premise.
 
-## 6. Continuity and approval gates
+## 7. Continuity and approval gates
 
 For sequential shots:
 1. Generate and review one shot at a time.
@@ -106,7 +119,7 @@ For sequential shots:
 - [ ] IDs, prices, availability, and CTA are current and legible.
 - [ ] Assembled continuity and final export are inspected.
 
-## 7. How this standard relates to changing niches
+## 8. How this standard relates to changing niches
 
 - **This standard stays stable** when a project changes niche, genre, channel, audience, or content theme.
 - **A content checkpoint may change** the story, subject, objects, location, tone, runtime, platform, and creative objective.
@@ -114,8 +127,9 @@ For sequential shots:
 - A niche change is not permission to skip image references, shot control, continuity, or review.
 - To change this standard, create a deliberate versioned revision, document the rationale and approval in `DECISIONS.md`, update related checkpoints, and record the change in the changelog. Never weaken it implicitly inside a content brainstorm.
 
-## 8. Prompt template
+## 9. Prompt template
 
+- **MANDATORY FIRST TEXT — AI CHARACTER DISCLOSURE:** insert the exact disclosure from Section 2 before all other prompt text; add the real-animal/product clarification for authentic source footage.
 - **SHOT ID / TARGET DURATION:**
 - **STORY PURPOSE:**
 - **ACTUAL ATTACHED REFERENCES:** subject / object / environment / storyboard / continuity; name each actual file and role
@@ -128,6 +142,6 @@ For sequential shots:
 - **NEGATIVE CONSTRAINTS:**
 - **OUTPUT STYLE / ASPECT RATIO:**
 
-## 9. Limits and evidence
+## 10. Limits and evidence
 
 Prompt instructions do not guarantee model compliance. Record actual output properties and inspect each generation against its references and shot contract. Mark untested behavior as `VERIFICATION_REQUIRED`; never report a prompt as successfully executed in DOLA unless generation actually occurred and was reviewed.
