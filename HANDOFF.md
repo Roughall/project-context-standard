@@ -59,3 +59,11 @@ Maintain repository-first project context and execute the current Bandaro Betta.
 ## Tests
 - Bandaro niche decision and checkpoint documented; GitHub commit/read-back verification to be recorded after repository write.
 - `python scripts/validate_context.py` remains `VERIFICATION_REQUIRED` until run in a local checkout.
+
+
+
+## Bandaro Pilot 01 — prompt pack ready, assets pending
+- Use `docs/BANDARO_PILOT01_DOLA_PROMPT_v1.md` for “Tanggal Tua, Jangan Buka Marketplace.” It contains Shot 01 and Shot 03 DOLA generation prompts, plus Shot 02 instructions for inserting authentic Halfmoon footage.
+- Every generated shot begins with the exact AI-character disclosure. The real fish insert must be identified as authentic footage and must not be replaced or materially altered by AI.
+- **Do not generate yet:** actual fictional talent, wallet, smartphone, and environment references plus the selected available Halfmoon video are MISSING. Attach actual files in the DOLA workflow before generation. Replace stock-ID placeholder only with a verified live inventory ID.
+- DOLA is not connected to this workspace; no generation or output review has occurred. Keep status as pending until the owner/operator runs and reviews the shots.
