@@ -1,3 +1,10 @@
+## 2026-11-10 — Establish mandatory cross-niche DOLA Production Standard v1.0
+- Added `docs/DOLA_PRODUCTION_STANDARD_v1.md` as the parent production standard for every DOLA project, niche, theme, and channel.
+- Made actual attached image references and explicit reference mapping mandatory for applicable subject, object, environment, storyboard, and continuity roles; asset names or text descriptions alone do not qualify.
+- Added mandatory shot-by-shot prompt structure, continuity protocol, pre-generation/per-shot/publication gates, and a formal versioning rule so niche changes cannot silently weaken production requirements.
+- Updated `AGENTS.md`, the DOLA shot-controlled checkpoint, and the Bandaro niche checkpoint to link to and enforce the parent standard.
+- Recorded decision D-003. GitHub writes completed; read-back verification and repository validator status are recorded in `TEST_RESULTS.md`.
+
 ## 2026-11-10 — Set Bandaro Betta.ID Indonesian 15-second working niche
 - Added `docs/BANDARO_BETTA_INDONESIAN_15S_NICHE_CHECKPOINT_v1.md`.
 - Recorded the approved working niche: “CUPANG, TINGKAH, & TINGKAT KEHALUAN” / “Ikannya cupang. Kelakuannya orang kita.”
