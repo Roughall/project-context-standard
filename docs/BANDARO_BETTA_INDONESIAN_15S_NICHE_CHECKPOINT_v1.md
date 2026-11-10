@@ -7,6 +7,7 @@
 - **Primary format:** Vertical short video, target duration 15 seconds.
 - **Audience:** General Indonesian audience, including people who are not currently betta hobbyists.
 - **Tone:** Mixed humor — receh, relatable, light satire, and absurd — using casual everyday Indonesian.
+- **Production standard:** All DOLA prompts and generations for this niche must follow the mandatory cross-niche [`DOLA Production Standard`](DOLA_PRODUCTION_STANDARD_v1.md). Niche changes do not waive actual image references, reference mapping, shot-by-shot control, continuity, or review gates.
 
 ## 1. Approved working niche
 
