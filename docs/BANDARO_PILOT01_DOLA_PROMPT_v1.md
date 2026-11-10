@@ -3,7 +3,7 @@
 - **Episode:** Tanggal Tua, Jangan Buka Marketplace
 - **Series:** DOMPET VS CUPANG
 - **Format:** 15-second vertical short, 9:16
-- **Status:** PROMPT READY — GENERATION BLOCKED BY MISSING APPROVED ASSETS
+- **Status:** PROMPT READY — GENERATION BLOCKED ONLY BY MISSING APPROVED VISUAL ASSETS
 - **Parent rule:** `DOLA_PRODUCTION_STANDARD_v1.md` v1.1 (mandatory, cross-niche)
 - **Creative checkpoint:** `BANDARO_BETTA_INDONESIAN_15S_NICHE_CHECKPOINT_v1.md`
 
@@ -70,7 +70,7 @@ Use the actual fish video as recorded. Do not alter or synthesize the fish's col
 
 **Overlay added in editing:** “TAPI... DIA CAKEP BANGET”
 
-**Product label added in editing:** “HALFMOON — BANDARO BETTA” plus the real stock ID after it has been confirmed. Never publish the placeholder `[STOCK ID AKTUAL]`.
+**Product label added in editing:** “HALFMOON — BANDARO BETTA” No stock ID is required in this pilot. Do not invent or display a placeholder ID.
 
 ## 5. Prompt — Shot 03 (10–15 seconds)
 
@@ -103,7 +103,7 @@ Create a photorealistic, natural-looking vertical live-action comedy shot. Use t
 - Keep the three shots in the stated order and maintain clear visual continuity between the two human shots.
 - Use actual Halfmoon footage in Shot 02; no generated fish replacement.
 - Add all exact text, voiceover, Bandaro account identity, and stock ID in editing.
-- Replace all placeholders with verified live inventory data before publishing.
+- Stock ID is intentionally omitted. Do not add a placeholder or invented identifier.
 - State current price and availability only in the DM response unless confirmed details are deliberately added to the edit.
 - Do not imply fake scarcity, a completed purchase, or guaranteed results.
 - Review fish appearance/condition and all text against the real listing before publication.
