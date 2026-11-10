@@ -50,3 +50,11 @@
 ## 2026-11-06 — Add Video_AI retention and storytelling framework v2.0
 - Added `docs/VIDEO_AI_RETENTION_STORYTELLING_FRAMEWORK_v2.md` covering hook, curiosity, payoff, retention-graph interpretation, evaluation, experimentation, and Bobo application.
 - Verification: framework committed; full repository validator remains `VERIFICATION_REQUIRED`.
+
+
+
+## 2026-11-10 — Add Bandaro Pilot 01 shot-by-shot DOLA prompt pack
+- Added `docs/BANDARO_PILOT01_DOLA_PROMPT_v1.md` for “Tanggal Tua, Jangan Buka Marketplace.”
+- Recreated the 15-second episode as two separately generated fictional-human shots plus one authentic Halfmoon footage insert; placed the mandatory disclosures at the beginning of each DOLA generation prompt and real-footage clarification at the actual fish insert.
+- Recorded required asset gaps and blocked generation until actual references and fish footage are supplied; no DOLA execution is claimed.
+- Linked the prompt pack from the Bandaro niche checkpoint and recorded decision D-005.
