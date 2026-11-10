@@ -123,3 +123,12 @@ A format is not validated by views or comments alone. Compare multiple pilots an
 - `docs/BANDARO_BETTA_CONTENT_STRATEGY_CHECKPOINT_v1.md`
 - `docs/CHANNEL_PIVOT_AND_NICHE_SEPARATION_CHECKPOINT_v1.md`
 - `docs/RETENTION_FIRST_INDONESIAN_SHORTS_FORMATS_CHECKPOINT_v1.md`
+
+
+## 11. Pilot 01 DOLA prompt pack
+
+- **Pilot:** “Tanggal Tua, Jangan Buka Marketplace” (DOMPET VS CUPANG), 15-second vertical short.
+- **Prompt pack:** [Bandaro Pilot 01 DOLA Prompt Pack v1.0](BANDARO_PILOT01_DOLA_PROMPT_v1.md).
+- **Structure:** Shot 01 fictional AI-created human (0–4s); Shot 02 actual Halfmoon footage (4–10s, not AI-generated); Shot 03 same fictional AI-created human (10–15s).
+- **Mandatory disclosure:** Each DOLA generation prompt starts with the exact AI-character disclosure. The real-fish insert carries the real-animal/product clarification and must use authentic footage.
+- **Production gate:** Prompt pack is drafted, but generation is blocked until the actual talent, wallet, smartphone, environment references and selected Halfmoon footage are supplied/attached. Never claim these assets are ready before receipt. DOLA generation and output review remain unverified.
