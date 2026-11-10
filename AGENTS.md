@@ -15,6 +15,7 @@ Read `STANDARD.md`, `project.yaml`, `PROJECT_STATUS.md`, `ARCHITECTURE.md`, `DEC
 
 ## DOLA production rule — mandatory across niches
 - Before drafting any DOLA prompt, read `docs/DOLA_PRODUCTION_STANDARD_v1.md` and the relevant project-specific DOLA checkpoint.
+- Begin every DOLA prompt with the exact AI-character disclosure in Section 2 of the parent standard. Apply it to fictional AI-generated human and animal characters; when authentic real-animal/product footage appears, append the required clarification so the real footage is never falsely labelled AI-created.
 - The DOLA Production Standard is the parent, cross-niche production rule. A new niche, theme, story, character, product, or channel does not reset or override it.
 - For each shot, map actual subject, object, environment, storyboard, and continuity image files as applicable. A filename, asset ID, description, or URL in prompt text is not a substitute for attaching the actual image through the supported DOLA reference input.
 - Never claim a reference is attached or ready unless the actual file is available. If a required image is missing, list it as MISSING and request/prepare it before generation.
