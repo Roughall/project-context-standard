@@ -35,3 +35,13 @@ Record approved decisions and their rationale. Do not silently reverse them.
 - **Rationale:** Establish a consistent disclosure convention for generated fictional human and animal characters across all content themes while preserving factual accuracy for real animals/products used as source footage.
 - **Impact:** Updated DOLA Production Standard, `AGENTS.md`, the DOLA working checkpoint, and the Bandaro niche checkpoint. Every future prompt must begin with the disclosure and add the real-footage clarification where applicable.
 - **Approval:** Explicitly requested by the project owner in the conversation on 2026-11-10.
+
+
+
+## D-005 — Approve Bandaro Pilot 01 shot-by-shot DOLA prompt pack
+- **Status:** APPROVED FOR PRODUCTION PLANNING (generation pending assets)
+- **Date:** 2026-11-10
+- **Decision:** Adopt the shot-by-shot prompt pack in `docs/BANDARO_PILOT01_DOLA_PROMPT_v1.md` for “Tanggal Tua, Jangan Buka Marketplace.” Use AI-created fictional human talent only in Shots 01 and 03; use authentic footage of the actual Halfmoon fish in Shot 02.
+- **Rationale:** The 15-second concept needs clear separation between fictional AI characters and authentic sale-product evidence, while keeping the story controllable and the fish representation truthful.
+- **Impact:** Generate and review the two human shots separately. Insert actual Halfmoon footage in editing. Do not generate until required visual references and the actual fish video are supplied; do not publish placeholders or imply a completed purchase.
+- **Approval:** Project owner approved proceeding and requested the prompt be recreated and checkpointed in this conversation on 2026-11-10.
