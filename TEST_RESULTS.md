@@ -17,3 +17,6 @@
 - Record the command/check and its actual output or a stable evidence reference.
 - Do not mark a test PASS based only on intended behavior.
 - Use `VERIFICATION_REQUIRED` when evidence is missing, incomplete, or stale.
+
+
+| 2026-11-10 | Create and read back Bandaro Pilot 01 DOLA prompt pack | PASS (repository write) / VERIFICATION_REQUIRED (DOLA execution) | Created `docs/BANDARO_PILOT01_DOLA_PROMPT_v1.md` and linked it from the Bandaro niche checkpoint; prompt contains two opening AI-character disclosures, authentic-fish clarification, shot timing, reference map, and asset blockers. DOLA generation was not run; actual reference assets and Halfmoon footage remain missing. |
