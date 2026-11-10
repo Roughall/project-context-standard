@@ -3,11 +3,13 @@
 - **Project:** Project Context Standard
 - **Overall status:** IN_PROGRESS
 - **Last updated:** 2026-11-10
+- **Mandatory production rule:** DOLA Production Standard v1.0 is now the parent, cross-niche rule for every DOLA project and content theme. See `docs/DOLA_PRODUCTION_STANDARD_v1.md` and decision D-003.
 
 ## Objective
 Maintain reusable repository-first context and agent handoff standards.
 
 ## Verified state
+- Added mandatory cross-niche DOLA Production Standard v1.0. It requires actual image attachments and explicit reference mapping for applicable subject, object, environment, storyboard, and continuity roles; shot-by-shot prompts; continuity; and review gates. `AGENTS.md`, the DOLA working checkpoint, and the Bandaro niche checkpoint now explicitly point to this parent standard.
 - The DOLA shot-controlled production checkpoint at `docs/DOLA_SHOT_CONTROLLED_PRODUCTION_CHECKPOINT_v1.md` records the second Misi Mustahil Klip 1 generation review (1280×720, 24 fps, approximately 10.04 seconds against a 6-second prompt). Review found the setting/character/vehicle/groceries and broad lift-lower action, but the rear-seat fit conflict and immediate hook were weak; a rear basket undermined the small-capacity premise; requested push-in was unclear; visible Dola AI watermark/text remained. Working editorial score: 6/10. Character/wardrobe likeness and exact prop matching against master references remain unverified.
 - Repository: `Roughall/project-context-standard`
 - Default branch: `main`
@@ -26,6 +28,7 @@ Maintain reusable repository-first context and agent handoff standards.
 | Add retention-first Indonesian Shorts formats checkpoint | PASS | Commit: 450cbea64f15d723756eb9b351f4b1c674b41591 |
 | Add DOLA shot-controlled production checkpoint | PASS | Commit: 105b780b2801d1704823493c777384f81a8e1afc |
 | Set Bandaro Betta.ID Indonesian 15-second working niche | IN_PROGRESS | Checkpoint and decision recorded; pilot performance not yet validated |
+| Establish mandatory cross-niche DOLA Production Standard v1.0 | PASS | Commit `158d09161f17367e803da78303c6450705fc98f0`; parent standard added and linked from agent instructions and project checkpoints |
 | Validate DOLA Klip 1 prompt adherence (horizontal 16:9 iteration) | VERIFICATION_REQUIRED | Second generation reviewed; partial compliance only. Targeted regeneration still required |
 | Validate revised DOLA workflow across the pilot | VERIFICATION_REQUIRED | Klip 1 is not approved; later shots and full-story payoff remain unverified |
 | Run repository validator | VERIFICATION_REQUIRED | Validator not run in this connector workflow |
@@ -37,4 +40,4 @@ Maintain reusable repository-first context and agent handoff standards.
 - Full repository validation remains unverified.
 
 ## Next action
-Produce and publish the three Bandaro Betta pilots in `docs/BANDARO_BETTA_INDONESIAN_15S_NICHE_CHECKPOINT_v1.md`: (1) tanggal tua / Halfmoon, (2) anak sultan / actual Crowntail Black Orchid, and (3) choose one / three actual fish. Replace all placeholder IDs with live stock IDs. Record retention, profile visits, qualified DMs, and completed orders by series. Separately, continue the DOLA Klip 1 targeted regeneration and run `python scripts/validate_context.py` in a local checkout when available.
+Apply `docs/DOLA_PRODUCTION_STANDARD_v1.md` to every DOLA prompt. For the Bandaro first pilot, collect actual reference assets and real Halfmoon footage, then produce and publish the three Bandaro Betta pilots in `docs/BANDARO_BETTA_INDONESIAN_15S_NICHE_CHECKPOINT_v1.md`: (1) tanggal tua / Halfmoon, (2) anak sultan / actual Crowntail Black Orchid, and (3) choose one / three actual fish. Replace all placeholder IDs with live stock IDs. Record retention, profile visits, qualified DMs, and completed orders by series. Separately, continue the DOLA Klip 1 targeted regeneration and run `python scripts/validate_context.py` in a local checkout when available.
