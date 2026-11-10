@@ -1,3 +1,9 @@
+## 2026-11-10 — Revise DOLA Production Standard to v1.1: mandatory AI-character disclosure
+- Added an exact AI-character disclosure as the first text in every DOLA prompt, covering fictional human and animal characters.
+- Added a required clarification for authentic real-animal/product footage so real fish or sale products are never falsely labelled AI-generated or replaced by generated substitutes.
+- Updated `AGENTS.md`, the DOLA working checkpoint, and the Bandaro niche checkpoint; recorded decision D-004.
+- GitHub writes and read-back verification recorded in `TEST_RESULTS.md`.
+
 ## 2026-11-10 — Establish mandatory cross-niche DOLA Production Standard v1.0
 - Added `docs/DOLA_PRODUCTION_STANDARD_v1.md` as the parent production standard for every DOLA project, niche, theme, and channel.
 - Made actual attached image references and explicit reference mapping mandatory for applicable subject, object, environment, storyboard, and continuity roles; asset names or text descriptions alone do not qualify.
