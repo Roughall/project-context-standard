@@ -8,13 +8,14 @@
 Maintain reusable repository-first context and agent handoff standards.
 
 ## Verified state
-- The DOLA shot-controlled production checkpoint at `docs/DOLA_SHOT_CONTROLLED_PRODUCTION_CHECKPOINT_v1.md` now includes a second Misi Mustahil Klip 1 test: horizontal 16:9, 1280×720, 24 fps, approximately 10.04 seconds against a 6-second prompt. Review found the setting/character/vehicle/groceries and broad lift-lower action, but the rear-seat fit conflict and immediate hook were weak; a rear basket undermined the small-capacity premise; requested push-in was unclear; visible Dola AI watermark/text remained. Working editorial score: 6/10. Character/wardrobe likeness and exact prop matching against master references remain unverified.
+- The DOLA shot-controlled production checkpoint at `docs/DOLA_SHOT_CONTROLLED_PRODUCTION_CHECKPOINT_v1.md` records the second Misi Mustahil Klip 1 generation review (1280×720, 24 fps, approximately 10.04 seconds against a 6-second prompt). Review found the setting/character/vehicle/groceries and broad lift-lower action, but the rear-seat fit conflict and immediate hook were weak; a rear basket undermined the small-capacity premise; requested push-in was unclear; visible Dola AI watermark/text remained. Working editorial score: 6/10. Character/wardrobe likeness and exact prop matching against master references remain unverified.
 - Repository: `Roughall/project-context-standard`
 - Default branch: `main`
 - A Video_AI retention and storytelling framework v2.0 has been committed under `docs/`.
 - A Bandaro Betta content strategy checkpoint v1.0 has been committed under `docs/`; its concepts and content mix remain hypotheses pending pilot results.
 - A channel pivot and niche separation checkpoint v1.0 has been committed under `docs/CHANNEL_PIVOT_AND_NICHE_SEPARATION_CHECKPOINT_v1.md`.
-- A retention-first Indonesian Shorts formats checkpoint v1.0 has been committed under `docs/RETENTION_FIRST_INDONESIAN_SHORTS_FORMATS_CHECKPOINT_v1.md`. It records five candidate formats and recommends Sidang Warga as the first pilot candidate, subject to competitor review and pilot evidence.
+- A retention-first Indonesian Shorts formats checkpoint v1.0 has been committed under `docs/RETENTION_FIRST_INDONESIAN_SHORTS_FORMATS_CHECKPOINT_v1.md`.
+- **New working niche decision:** Bandaro Betta.ID is positioned as general-audience Indonesian betta entertainment, mixed humor and casual Indonesian language, with 15-second short videos. Five recurring series and the first three pilots are documented in `docs/BANDARO_BETTA_INDONESIAN_15S_NICHE_CHECKPOINT_v1.md`. This is an approved working direction; performance remains unvalidated until published pilots are measured.
 
 ## Milestones
 | Milestone | Status | Evidence / notes |
@@ -24,15 +25,16 @@ Maintain reusable repository-first context and agent handoff standards.
 | Add channel pivot and niche separation checkpoint | PASS | Commit: a72ef495336264c82117dda93223eaef8c3211a6 |
 | Add retention-first Indonesian Shorts formats checkpoint | PASS | Commit: 450cbea64f15d723756eb9b351f4b1c674b41591 |
 | Add DOLA shot-controlled production checkpoint | PASS | Commit: 105b780b2801d1704823493c777384f81a8e1afc |
+| Set Bandaro Betta.ID Indonesian 15-second working niche | IN_PROGRESS | Checkpoint and decision recorded; pilot performance not yet validated |
 | Validate DOLA Klip 1 prompt adherence (horizontal 16:9 iteration) | VERIFICATION_REQUIRED | Second generation reviewed; partial compliance only. Targeted regeneration still required |
 | Validate revised DOLA workflow across the pilot | VERIFICATION_REQUIRED | Klip 1 is not approved; later shots and full-story payoff remain unverified |
 | Run repository validator | VERIFICATION_REQUIRED | Validator not run in this connector workflow |
 
 ## Blockers
-- No blocker for the documentation addition.
+- No blocker for the Bandaro niche documentation.
+- Bandaro niche performance and sales impact are not yet validated by published pilots.
+- Competitive uniqueness of prior Video_AI formats has not been established.
 - Full repository validation remains unverified.
-- Competitive uniqueness of the five candidate formats has not been established.
-- No pilot performance data exists for the new formats.
 
 ## Next action
-Regenerate Misi Mustahil Klip 1 with the targeted blocking/composition corrections in the DOLA checkpoint; compare against actual attached master references before approving Klip 2. Then continue the focused competitor audit and decide whether to proceed with three Sidang Warga pilots. Review the pilots using retention, viewed-vs-swiped, completion/replay, engagement quality, and production-effort evidence. Run `python scripts/validate_context.py` in a local checkout when available.
+Produce and publish the three Bandaro Betta pilots in `docs/BANDARO_BETTA_INDONESIAN_15S_NICHE_CHECKPOINT_v1.md`: (1) tanggal tua / Halfmoon, (2) anak sultan / actual Crowntail Black Orchid, and (3) choose one / three actual fish. Replace all placeholder IDs with live stock IDs. Record retention, profile visits, qualified DMs, and completed orders by series. Separately, continue the DOLA Klip 1 targeted regeneration and run `python scripts/validate_context.py` in a local checkout when available.
