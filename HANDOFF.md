@@ -3,6 +3,7 @@
 ## Mandatory DOLA production rule
 - Every DOLA prompt in every niche/theme must follow `docs/DOLA_PRODUCTION_STANDARD_v1.md` (parent standard). Niche/content checkpoints can change creative material but cannot waive actual image references, reference mapping, shot-by-shot prompts, continuity, or review gates.
 - Before drafting prompts, inspect the asset map and attach actual files through supported DOLA reference inputs. Never treat labels, filenames, or text descriptions as attached images. Mark missing assets MISSING and request/prepare them before generation.
+- Every prompt must begin with the exact AI-character disclosure in Section 2 of the standard. For authentic real-animal/product footage, add the required clarification that the footage is real and must not be replaced by AI-generated imagery.
 - `AGENTS.md` enforces this rule. Changing the standard requires a versioned decision, not a niche pivot.
 
 ## Current objective
