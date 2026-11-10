@@ -26,3 +26,12 @@ Record approved decisions and their rationale. Do not silently reverse them.
 - **Rationale:** The existing DOLA shot-controlled checkpoint already required real visual references, but its project-specific placement did not clearly establish that the rule persists across future niche/theme changes. This caused inconsistent application when switching to Bandaro Betta content.
 - **Impact:** `AGENTS.md` now instructs agents to read and enforce the parent standard before every DOLA prompt. Content/niche checkpoints must link to it and may change creative material only. A missing actual reference must be marked MISSING; prompt text or asset labels do not count as an attachment. Changing the standard requires a deliberate versioned decision.
 - **Approval:** Explicitly approved by the project owner in the conversation on 2026-11-10.
+
+
+## D-004 — Add mandatory AI-character disclosure at the beginning of every DOLA prompt
+- **Status:** APPROVED
+- **Date:** 2026-11-10
+- **Decision:** Revise the cross-niche DOLA Production Standard to require an AI-character disclosure as the first text in every DOLA prompt: “All fictional characters depicted in this AI-generated scene, whether human or animal, are AI-created characters. Do not present an AI-generated character as a real person or real animal.” When authentic real-animal or product footage is included, immediately add the clarification that the real animal/product footage is real, not AI-generated, and must not be replaced or materially altered.
+- **Rationale:** Establish a consistent disclosure convention for generated fictional human and animal characters across all content themes while preserving factual accuracy for real animals/products used as source footage.
+- **Impact:** Updated DOLA Production Standard, `AGENTS.md`, the DOLA working checkpoint, and the Bandaro niche checkpoint. Every future prompt must begin with the disclosure and add the real-footage clarification where applicable.
+- **Approval:** Explicitly requested by the project owner in the conversation on 2026-11-10.
