@@ -44,3 +44,7 @@ Maintain reusable repository-first context and agent handoff standards.
 
 ## Next action
 Apply `docs/DOLA_PRODUCTION_STANDARD_v1.md` to every DOLA prompt. For the Bandaro first pilot, collect actual reference assets and real Halfmoon footage, then produce and publish the three Bandaro Betta pilots in `docs/BANDARO_BETTA_INDONESIAN_15S_NICHE_CHECKPOINT_v1.md`: (1) tanggal tua / Halfmoon, (2) anak sultan / actual Crowntail Black Orchid, and (3) choose one / three actual fish. Replace all placeholder IDs with live stock IDs. Record retention, profile visits, qualified DMs, and completed orders by series. Separately, continue the DOLA Klip 1 targeted regeneration and run `python scripts/validate_context.py` in a local checkout when available.
+
+
+
+- **Bandaro Pilot 01 DOLA prompt pack:** Added `docs/BANDARO_PILOT01_DOLA_PROMPT_v1.md` with two AI-character shot prompts and one authentic Halfmoon footage insert. Prompt pack committed to `main`; generation is blocked pending actual reference assets and selected fish footage. See decision D-005.
