@@ -1,5 +1,10 @@
 # Handoff
 
+## Mandatory DOLA production rule
+- Every DOLA prompt in every niche/theme must follow `docs/DOLA_PRODUCTION_STANDARD_v1.md` (parent standard). Niche/content checkpoints can change creative material but cannot waive actual image references, reference mapping, shot-by-shot prompts, continuity, or review gates.
+- Before drafting prompts, inspect the asset map and attach actual files through supported DOLA reference inputs. Never treat labels, filenames, or text descriptions as attached images. Mark missing assets MISSING and request/prepare them before generation.
+- `AGENTS.md` enforces this rule. Changing the standard requires a versioned decision, not a niche pivot.
+
 ## Current objective
 Maintain repository-first project context and execute the current Bandaro Betta.ID content niche pilot while keeping the separate DOLA video-production work resumable.
 
@@ -28,11 +33,13 @@ Maintain repository-first project context and execute the current Bandaro Betta.
 - Halfmoon is the main inventory exposure (reported ~70%); Plakat ~25%; Crowntail ~5%. Black Orchid can be a distinctive feature but should not dominate inventory exposure.
 
 ## DOLA project — next actions
-1. Regenerate Misi Mustahil Klip 1 only, applying the latest checkpoint corrections: immediate hook from frame one; small scooter without a large rear basket; clear attempt to position the oversized bag on the rear seat and lower it when it does not fit; one continuous medium-wide three-quarter composition; retain a six-second target but inspect actual duration.
-2. Attach actual approved subject, vehicle, environment, and grocery reference images. Verify face/wardrobe and prop matching against those references.
-3. Review the regenerated clip against the per-shot acceptance gate. Do not proceed to Klip 2 until Klip 1 is approved.
+1. For the Bandaro pilot, build the actual asset map and collect/attach the real Halfmoon product footage plus applicable subject, object, and environment references before DOLA generation. The fish product shot itself should use actual footage in the edit, not an AI-generated substitute.
+2. Regenerate Misi Mustahil Klip 1 only, applying the latest checkpoint corrections: immediate hook from frame one; small scooter without a large rear basket; clear attempt to position the oversized bag on the rear seat and lower it when it does not fit; one continuous medium-wide three-quarter composition; retain a six-second target but inspect actual duration.
+3. Attach actual approved subject, vehicle, environment, and grocery reference images. Verify face/wardrobe and prop matching against those references.
+4. Review the regenerated clip against the per-shot acceptance gate. Do not proceed to Klip 2 until Klip 1 is approved.
 
 ## Relevant files
+- `docs/DOLA_PRODUCTION_STANDARD_v1.md` — mandatory parent DOLA production rules across all niches and themes.
 - `docs/BANDARO_BETTA_INDONESIAN_15S_NICHE_CHECKPOINT_v1.md` — latest working niche, five series, pilot scripts, inventory alignment, conversion path, and measurement.
 - `docs/BANDARO_BETTA_CONTENT_STRATEGY_CHECKPOINT_v1.md` — earlier broader Bandaro strategy; superseded in creative direction where it conflicts with the newer niche checkpoint.
 - `docs/CHANNEL_PIVOT_AND_NICHE_SEPARATION_CHECKPOINT_v1.md` — channel preservation and niche separation.
