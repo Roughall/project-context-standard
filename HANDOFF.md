@@ -7,16 +7,26 @@
 - `AGENTS.md` enforces this rule. Changing the standard requires a versioned decision, not a niche pivot.
 
 ## Current objective
-Maintain repository-first project context and execute the current Bandaro Betta.ID content niche pilot while keeping the separate DOLA video-production work resumable.
+Maintain repository-first project context and continue the Video_AI reference-video study while keeping the separate Bandaro Betta.ID pilot and DOLA video-production work resumable.
 
 ## Current state
 - Repository: `Roughall/project-context-standard`
 - Branch: `main`
-- Latest documented Bandaro working niche decision (2026-11-10): general-audience Indonesian betta entertainment, mixed humor, casual Indonesian language, 15-second vertical videos.
-- Bandaro series identity: **CUPANG, TINGKAH, & TINGKAT KEHALUAN**; tagline **“Ikannya cupang. Kelakuannya orang kita.”**
-- Five recurring series are documented in `docs/BANDARO_BETTA_INDONESIAN_15S_NICHE_CHECKPOINT_v1.md`.
-- This is a working creative direction, not validated performance. No published pilot results are recorded yet.
+- Latest interim checkpoint: `docs/VIDEO_AI_REFERENCE_VIDEO_ANALYSIS_CHECKPOINT_v1.md` (2026-11-12).
+- Four user-supplied MP4 references were visually/structurally inspected: character-led tutorial, timeline/illustrated explainer, low-poly cause-and-effect explainer, and longer 2D illustrated narrative.
+- Exact source apps are UNKNOWN. `Lavf62.3.103` is an FFmpeg/libavformat encoder tag, not proof of the original production app.
+- Audio streams exist, but full audio transcription and detailed voice delivery analysis remain outstanding.
+- The hybrid workflow proposed in the checkpoint is EXPERIMENTAL; no permanent format or app stack has been selected.
+- Bandaro Betta.ID remains positioned as general-audience Indonesian betta entertainment, mixed humor, casual Indonesian language, 15-second vertical videos. This is a working creative direction; performance is not yet validated.
 - DOLA Klip 1 remains unapproved after the second horizontal 16:9 test; see `docs/DOLA_SHOT_CONTROLLED_PRODUCTION_CHECKPOINT_v1.md`.
+
+## Video_AI reference-study next actions
+1. Transcribe and listen to all four reference audio tracks to assess hook, script structure, voice delivery, pacing, emphasis, and CTA wording.
+2. Choose a first experiment track (A visual explainer, B illustrated storytelling, C character-led tutorial/story) or explicitly run a same-story A/B/C comparison.
+3. Select one concrete subject/story with a clear audience payoff.
+4. Build a timed master script and shot-by-shot storyboard before drafting generation prompts.
+5. Assign each shot to the most controllable method: DOLA/video generation, still illustration plus camera movement, motion graphics, controlled 3D, or authentic screen recording.
+6. Track prompt versions, attempts, editing time, cost, final runtime, and retention metrics.
 
 ## Bandaro Betta — next actions
 1. Select actual available fish for three pilots: Halfmoon for “Tanggal tua, jangan buka marketplace”; Crowntail Black Orchid for “Anak sultan masuk tongkrongan”; and three actual fish for “Dikasih gratis, pilih satu!”.
@@ -26,13 +36,6 @@ Maintain repository-first project context and execute the current Bandaro Betta.
 5. Publish the three pilots and record retention, profile visits, qualified DMs, completed orders, and production time by series.
 6. Review results before promoting any series to a permanent high-volume pillar or changing the niche.
 
-## Bandaro creative guardrails
-- Broad Indonesian audience; humor should be instantly understandable and not require betta expertise.
-- Mix relatable/receh humor, light satire, and absurdity; avoid heavy themes, overly complex plots, and formal narration.
-- Real fish footage is the source of truth for sale inventory.
-- No false scarcity, misleading stock status, unsupported biological claims, or fish-stressing stunts.
-- Halfmoon is the main inventory exposure (reported ~70%); Plakat ~25%; Crowntail ~5%. Black Orchid can be a distinctive feature but should not dominate inventory exposure.
-
 ## DOLA project — next actions
 1. For the Bandaro pilot, build the actual asset map and collect/attach the real Halfmoon product footage plus applicable subject, object, and environment references before DOLA generation. The fish product shot itself should use actual footage in the edit, not an AI-generated substitute.
 2. Regenerate Misi Mustahil Klip 1 only, applying the latest checkpoint corrections: immediate hook from frame one; small scooter without a large rear basket; clear attempt to position the oversized bag on the rear seat and lower it when it does not fit; one continuous medium-wide three-quarter composition; retain a six-second target but inspect actual duration.
@@ -40,13 +43,13 @@ Maintain repository-first project context and execute the current Bandaro Betta.
 4. Review the regenerated clip against the per-shot acceptance gate. Do not proceed to Klip 2 until Klip 1 is approved.
 
 ## Relevant files
+- `docs/VIDEO_AI_REFERENCE_VIDEO_ANALYSIS_CHECKPOINT_v1.md` — four reference-video observations, attribution limits, proposed hybrid workflow, and next experiments.
 - `docs/DOLA_PRODUCTION_STANDARD_v1.md` — mandatory parent DOLA production rules across all niches and themes.
 - `docs/BANDARO_BETTA_INDONESIAN_15S_NICHE_CHECKPOINT_v1.md` — latest working niche, five series, pilot scripts, inventory alignment, conversion path, and measurement.
-- `docs/BANDARO_BETTA_CONTENT_STRATEGY_CHECKPOINT_v1.md` — earlier broader Bandaro strategy; superseded in creative direction where it conflicts with the newer niche checkpoint.
-- `docs/CHANNEL_PIVOT_AND_NICHE_SEPARATION_CHECKPOINT_v1.md` — channel preservation and niche separation.
-- `docs/RETENTION_FIRST_INDONESIAN_SHORTS_FORMATS_CHECKPOINT_v1.md` — Indonesian entertainment-format research hypotheses for the separate Video_AI work.
+- `docs/BANDARO_PILOT01_DOLA_PROMPT_v1.md` — shot-by-shot prompt pack for Bandaro Pilot 01.
 - `docs/DOLA_SHOT_CONTROLLED_PRODUCTION_CHECKPOINT_v1.md` — DOLA shot-control and pilot review.
 - `PROJECT_STATUS.md` — milestones, verification state, and next actions.
+- `DECISIONS.md` — approved decisions and experimental records.
 - `TEST_RESULTS.md` — actual checks and evidence.
 
 ## Blockers, risks, and approvals
@@ -54,13 +57,13 @@ Maintain repository-first project context and execute the current Bandaro Betta.
 - Placeholder fish IDs must not be published; replace them with real inventory identifiers.
 - Competitor uniqueness of previous Video_AI formats has not been established.
 - DOLA Klip 1 still requires targeted regeneration and reference matching.
+- Exact source applications and full voice-over characteristics of the four reference videos remain unknown pending further evidence.
 - Full repository validation remains pending.
 
 ## Tests
-- Bandaro niche decision and checkpoint documented; GitHub commit/read-back verification to be recorded after repository write.
+- Reference-video checkpoint committed and read-back verification pending.
+- Bandaro niche decision and checkpoint documented; repository commit/read-back verification to be recorded after each repository write.
 - `python scripts/validate_context.py` remains `VERIFICATION_REQUIRED` until run in a local checkout.
-
-
 
 ## Bandaro Pilot 01 — prompt pack ready, assets pending
 - Use `docs/BANDARO_PILOT01_DOLA_PROMPT_v1.md` for “Tanggal Tua, Jangan Buka Marketplace.” It contains Shot 01 and Shot 03 DOLA generation prompts, plus Shot 02 instructions for inserting authentic Halfmoon footage.
