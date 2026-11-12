@@ -45,3 +45,11 @@ Record approved decisions and their rationale. Do not silently reverse them.
 - **Rationale:** The 15-second concept needs clear separation between fictional AI characters and authentic sale-product evidence, while keeping the story controllable and the fish representation truthful.
 - **Impact:** Generate and review the two human shots separately. Insert actual Halfmoon footage in editing. Do not generate until required visual references and the actual fish video are supplied; do not publish placeholders or imply a completed purchase.
 - **Approval:** Project owner approved proceeding and requested the prompt be recreated and checkpointed in this conversation on 2026-11-10.
+
+## D-006 — Record interim analysis of four reference videos
+- **Status:** RECORDED / EXPERIMENTAL (not a canonical creative-direction approval)
+- **Date:** 2026-11-12
+- **Decision:** Preserve the review of four user-supplied reference videos and the proposed hybrid production workflow in `docs/VIDEO_AI_REFERENCE_VIDEO_ANALYSIS_CHECKPOINT_v1.md`.
+- **Rationale:** The examples show distinct production approaches—character-led tutorial, timeline/illustrated explainer, cause-and-effect visual explainer, and illustrated narrative. Their production strengths can inform controlled experiments, but the available MP4 metadata does not establish the exact source applications.
+- **Impact:** Separate story/script/voice-over, storyboard/visual direction, motion generation, and editing into testable stages. Treat the proposed app stack and format tracks as options only. Full audio transcription and voice-delivery analysis remain open.
+- **Approval:** Owner requested an interim checkpoint and repository commit/push on 2026-11-12. No permanent format or app stack was approved.
