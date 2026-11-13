@@ -24,6 +24,9 @@ Maintain reusable repository-first context and agent handoff standards.
 - **New working niche decision:** Bandaro Betta.ID is positioned as general-audience Indonesian betta entertainment, mixed humor and casual Indonesian language, with 15-second short videos. Five recurring series and the first three pilots are documented in `docs/BANDARO_BETTA_INDONESIAN_15S_NICHE_CHECKPOINT_v1.md`. This is an approved working direction; performance remains unvalidated until published pilots are measured.
 - **Bandaro Pilot 01 DOLA prompt pack:** Added `docs/BANDARO_PILOT01_DOLA_PROMPT_v1.md` with two AI-character shot prompts and one authentic Halfmoon footage insert. Prompt pack committed to `main`; generation is blocked pending actual reference assets and selected fish footage. See decision D-005.
 
+
+- Added `docs/GORENGAN_VISUAL_EXPLAINER_DOLA_EXPERIMENT_CHECKPOINT_v1.md` (2026-11-13): Track A Visual Explainer, 20-second target, two 10-second DOLA generations, reference asset map, timed VO, audio/editing plan, and evaluation gates. Status is EXPERIMENTAL; actual reference assets, DOLA generation, review, and publication metrics are pending.
+
 ## Milestones
 | Milestone | Status | Evidence / notes |
 |---|---|---|
