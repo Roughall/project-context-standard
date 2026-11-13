@@ -20,6 +20,15 @@ Maintain repository-first project context and continue the Video_AI reference-vi
 - Bandaro Betta.ID remains positioned as general-audience Indonesian betta entertainment, mixed humor, casual Indonesian language, 15-second vertical videos. This is a working creative direction; performance is not yet validated.
 - DOLA Klip 1 remains unapproved after the second horizontal 16:9 test; see `docs/DOLA_SHOT_CONTROLLED_PRODUCTION_CHECKPOINT_v1.md`.
 
+## Gorengan Visual Explainer experiment — current working task
+- Checkpoint: `docs/GORENGAN_VISUAL_EXPLAINER_DOLA_EXPERIMENT_CHECKPOINT_v1.md`.
+- Owner selected Track A — Visual Explainer for a 20-second gorengan education Reel, split into two 10-second DOLA generations.
+- Prepare three consistent actual image references: REF 01 closed transparent container (Generate 1 start), REF 02 inner-lid condensation guide, REF 03 ventilated rack/container solution guide. Actual files are not yet confirmed as prepared or attached.
+- Generate 1 uses REF 01 and should end on a clear condensation frame. Export its actual final frame and use it as Generate 2's start image; use REF 03 as the solution visual guide if supported.
+- Master VO includes a 3-second relatable hook, one explanation, practical solution, and a comment CTA. Add captions/CTA text in editing, not DOLA.
+- Enable DOLA native audio only to test synchronized subtle SFX; no generated speech/music. Mute/replace with master VO in editing as needed.
+- No generation or output review has occurred yet. Do not mark this experiment complete until both clips are reviewed against the actual references.
+
 ## Video_AI reference-study next actions
 1. Transcribe and listen to all four reference audio tracks to assess hook, script structure, voice delivery, pacing, emphasis, and CTA wording.
 2. Choose a first experiment track (A visual explainer, B illustrated storytelling, C character-led tutorial/story) or explicitly run a same-story A/B/C comparison.
@@ -43,7 +52,7 @@ Maintain repository-first project context and continue the Video_AI reference-vi
 4. Review the regenerated clip against the per-shot acceptance gate. Do not proceed to Klip 2 until Klip 1 is approved.
 
 ## Relevant files
-- `docs/VIDEO_AI_REFERENCE_VIDEO_ANALYSIS_CHECKPOINT_v1.md` — four reference-video observations, attribution limits, proposed hybrid workflow, and next experiments.
+- `docs/VIDEO_AI_REFERENCE_VIDEO_ANALYSIS_CHECKPOINT_v1.md` — four reference-video observations, attribution limits, proposed hybrid workflow, and next experiments.\n- `docs/GORENGAN_VISUAL_EXPLAINER_DOLA_EXPERIMENT_CHECKPOINT_v1.md` — 20-second two-generation gorengan Visual Explainer experiment, reference map, timed VO, prompts' shot plan, and review gates.
 - `docs/DOLA_PRODUCTION_STANDARD_v1.md` — mandatory parent DOLA production rules across all niches and themes.
 - `docs/BANDARO_BETTA_INDONESIAN_15S_NICHE_CHECKPOINT_v1.md` — latest working niche, five series, pilot scripts, inventory alignment, conversion path, and measurement.
 - `docs/BANDARO_PILOT01_DOLA_PROMPT_v1.md` — shot-by-shot prompt pack for Bandaro Pilot 01.
