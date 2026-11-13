@@ -53,3 +53,12 @@ Record approved decisions and their rationale. Do not silently reverse them.
 - **Rationale:** The examples show distinct production approaches—character-led tutorial, timeline/illustrated explainer, cause-and-effect visual explainer, and illustrated narrative. Their production strengths can inform controlled experiments, but the available MP4 metadata does not establish the exact source applications.
 - **Impact:** Separate story/script/voice-over, storyboard/visual direction, motion generation, and editing into testable stages. Treat the proposed app stack and format tracks as options only. Full audio transcription and voice-delivery analysis remain open.
 - **Approval:** Owner requested an interim checkpoint and repository commit/push on 2026-11-12. No permanent format or app stack was approved.
+
+
+## D-007 — Run a 20-second gorengan Visual Explainer experiment
+- **Status:** APPROVED FOR EXPERIMENTAL TESTING (generation and performance validation pending)
+- **Date:** 2026-11-13
+- **Decision:** Use Track A — Visual Explainer for one educational gorengan Reel with a 20-second target runtime, produced as two 10-second DOLA image-to-video generations. The story covers trapped steam/condensation and a ventilated-storage solution. Use a concise Indonesian voice-over with a hook in the first three seconds and a relevant comment CTA. Enable native DOLA audio only to test synchronized environmental SFX; final editing may mute it and overlay the separate voice-over.
+- **Rationale:** The owner selected the visual-explainer direction and wants to test whether DOLA can animate controlled image references while preserving object identity and continuity. Creator-provided consistency, hook, CTA, duration, voice, scheduling, and supporting-post advice is treated as experiment input, not a guaranteed reach formula.
+- **Impact:** Record the reference asset map (REF 01 closed container, REF 02 condensation guide, REF 03 ventilated-storage guide), two-generation action plan, timed VO, editing map, review gates, and publication metrics in `docs/GORENGAN_VISUAL_EXPLAINER_DOLA_EXPERIMENT_CHECKPOINT_v1.md`. Actual assets must be prepared and attached before generation. Generation, review, publication, and performance validation remain pending. This does not establish a permanent format or guarantee views.
+- **Approval:** Owner explicitly approved proceeding with the gorengan experiment and requested checkpoint, commit, and push on 2026-11-13.
