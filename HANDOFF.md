@@ -10,6 +10,7 @@
 Maintain repository-first project context and continue the Video_AI reference-video study while keeping the separate Bandaro Betta.ID pilot and DOLA video-production work resumable.
 
 ## Current state
+- `CHATGPT_UPDATE_PACK.md` v2 preflight was checked against `main` at `ec00ef7` on 2026-11-15: B1–B11 each matched exactly once. The pack has **not** been applied; its three new files and replacements remain pending. See `TEST_RESULTS.md`. Do not report the DOLA prompt-structure v1.1 / Tari Piring checkpoint pack as committed until it is applied and read back.
 - Repository: `Roughall/project-context-standard`
 - Branch: `main`
 - Latest interim checkpoint: `docs/VIDEO_AI_REFERENCE_VIDEO_ANALYSIS_CHECKPOINT_v1.md` (2026-11-12).

@@ -1,3 +1,8 @@
+## 2026-11-15 — Record CHATGPT_UPDATE_PACK v2 preflight
+- Recorded that all 11 exact FIND targets in the rebuilt v2 pack matched `main` exactly once at `ec00ef7`.
+- The pack itself was not applied: no new files or replacements were written, and no pack commit, post-change read-back, or validator run is claimed.
+- See `TEST_RESULTS.md` for the precise preflight result. The DOLA prompt-structure/Tari Piring/cross-agent pack remains pending application.
+
 ## 2026-11-10 — Revise DOLA Production Standard to v1.1: mandatory AI-character disclosure
 - Added an exact AI-character disclosure as the first text in every DOLA prompt, covering fictional human and animal characters.
 - Added a required clarification for authentic real-animal/product footage so real fish or sale products are never falsely labelled AI-generated or replaced by generated substitutes.
