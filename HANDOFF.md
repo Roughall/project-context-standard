@@ -10,7 +10,7 @@
 Maintain repository-first project context and continue the Video_AI reference-video study while keeping the separate Bandaro Betta.ID pilot and DOLA video-production work resumable.
 
 ## Current state
-- `CHATGPT_UPDATE_PACK.md` v2 preflight was checked against `main` at `ec00ef7` on 2026-11-15: B1–B11 each matched exactly once. The pack has **not** been applied; its three new files and replacements remain pending. See `TEST_RESULTS.md`. Do not report the DOLA prompt-structure v1.1 / Tari Piring checkpoint pack as committed until it is applied and read back.
+- `CHATGPT_UPDATE_PACK.md` v3 was applied to `main` in a single commit (the commit that adds `docs/CROSS_AGENT_CHANGE_PROTOCOL_v1.md`). It is not closed until Claude's audit of `main` is recorded; the earlier preflight-only records in `TEST_RESULTS.md` remain as history.
 - Repository: `Roughall/project-context-standard`
 - Branch: `main`
 - Latest interim checkpoint: `docs/VIDEO_AI_REFERENCE_VIDEO_ANALYSIS_CHECKPOINT_v1.md` (2026-11-12).
@@ -29,6 +29,21 @@ Maintain repository-first project context and continue the Video_AI reference-vi
 - Master VO includes a 3-second relatable hook, one explanation, practical solution, and a comment CTA. Add captions/CTA text in editing, not DOLA.
 - Enable DOLA native audio only to test synchronized subtle SFX; no generated speech/music. Mute/replace with master VO in editing as needed.
 - No generation or output review has occurred yet. Do not mark this experiment complete until both clips are reviewed against the actual references.
+
+## Misi Mustahil update (Klip A and Klip B) and prompt structure
+- Klip A (problem) and Klip B (solution) were generated as 10 s, 9:16 clips on separate accounts and reviewed (section 10 of `docs/DOLA_SHOT_CONTROLLED_PRODUCTION_CHECKPOINT_v1.md`). Neither is approved. Older Klip 1 items under "DOLA project — next actions" predate these clips and are superseded here.
+- Decision D-008 adopts `docs/DOLA_PROMPT_STRUCTURE_STANDARD_v1.md` (subordinate to the parent standard): disclosure first, actual attached references, start state from the previous clip's actual final frame, Mode S by default, observable-cause beats, hold at most 1 s, explicit end pose, 10-point acceptance gate. Use it when writing the gorengan Generate 1 and Generate 2 prompts as well.
+- Next for Misi Mustahil: assemble and review the 15-second edit (Klip A 0-6.5 s plus Klip B about 0-8.5 s): trim the static hold, match color, blur or cover the license plate, add hook, strategy, and CTA overlays. Do not show an overloaded vehicle being ridden; a Part 2 should end at arrival.
+
+## Cross-agent workflow
+- Changes now follow `docs/CROSS_AGENT_CHANGE_PROTOCOL_v1.md` (D-010): Claude builds and tests a change pack and audits `main` afterwards; ChatGPT applies the pack exactly and reports a read-back; the owner forwards one file. The first use is the DOLA prompt structure v1.1 and Tari Piring checkpoint pack; it is not closed until Claude's audit of `main` is recorded. The first attempt halted at preflight (see `TEST_RESULTS.md`); the pack was rebuilt on `ec00ef7`.
+- Known formatting defect (not fixed in this pack): in the Relevant files section the first two bullets of the previous update are joined by a literal backslash-n instead of a line break. Fix it in a separate, deliberate change.
+
+## Tari Piring (30-second project)
+- Checkpoint: `docs/TARI_PIRING_DOLA_CHECKPOINT_v1.md`. Clips 01 to 03 were generated and reviewed; a raw 30.21 s assembly with voice-over exists. Working averages: Clip 01 v2 about 7.1, Clip 02 v2 about 7.4, Clip 03 v1 about 7.9 out of 10; the assembly about 6.2/10 on content structure. Clip 01 v3 was reported worse than v2 and not audited. Nothing is approved for publication by these records.
+- Prompt rules are v1.2 (D-011): R9 to R12, R8 downgraded, gate item 14 (audio check) in `docs/DOLA_PROMPT_STRUCTURE_STANDARD_v1.md`. Generated audio appeared in two of four clips despite instructions, so always plan to mute or replace it in editing.
+- Shot-variety analysis (D-012): `docs/VIDEO_AI_SHOT_VARIETY_REFERENCE_ANALYSIS_v1.md`. Two reference videos averaged about 2.5 s per shot with 14 to 17 shots, word-by-word captions, a keyword CTA, and an audio bed; the assembly has 3 clips and a 6 to 10 s average. Findings are hypotheses; test by A/B.
+- Next: owner decision on re-edit versus new production and on Mode M; then audit the result.
 
 ## Video_AI reference-study next actions
 1. Transcribe and listen to all four reference audio tracks to assess hook, script structure, voice delivery, pacing, emphasis, and CTA wording.
@@ -53,6 +68,10 @@ Maintain repository-first project context and continue the Video_AI reference-vi
 4. Review the regenerated clip against the per-shot acceptance gate. Do not proceed to Klip 2 until Klip 1 is approved.
 
 ## Relevant files
+- `docs/CROSS_AGENT_CHANGE_PROTOCOL_v1.md` — roles, change-pack flow, audit checklist for multi-agent updates.
+- `docs/TARI_PIRING_DOLA_CHECKPOINT_v1.md` — Tari Piring Clips 01 to 03, the assembled video audit, scores, and the prompts as run.
+- `docs/VIDEO_AI_SHOT_VARIETY_REFERENCE_ANALYSIS_v1.md` — shot-variety analysis of two reference videos (hypotheses) and the gap against the Tari Piring assembly.
+- `docs/DOLA_PROMPT_STRUCTURE_STANDARD_v1.md` — fixed DOLA prompt section order, beat rules, acceptance gate, template, checklist (subordinate to the parent standard).
 - `docs/VIDEO_AI_REFERENCE_VIDEO_ANALYSIS_CHECKPOINT_v1.md` — four reference-video observations, attribution limits, proposed hybrid workflow, and next experiments.\n- `docs/GORENGAN_VISUAL_EXPLAINER_DOLA_EXPERIMENT_CHECKPOINT_v1.md` — 20-second two-generation gorengan Visual Explainer experiment, reference map, timed VO, prompts' shot plan, and review gates.
 - `docs/DOLA_PRODUCTION_STANDARD_v1.md` — mandatory parent DOLA production rules across all niches and themes.
 - `docs/BANDARO_BETTA_INDONESIAN_15S_NICHE_CHECKPOINT_v1.md` — latest working niche, five series, pilot scripts, inventory alignment, conversion path, and measurement.

@@ -62,3 +62,47 @@ Record approved decisions and their rationale. Do not silently reverse them.
 - **Rationale:** The owner selected the visual-explainer direction and wants to test whether DOLA can animate controlled image references while preserving object identity and continuity. Creator-provided consistency, hook, CTA, duration, voice, scheduling, and supporting-post advice is treated as experiment input, not a guaranteed reach formula.
 - **Impact:** Record the reference asset map (REF 01 closed container, REF 02 condensation guide, REF 03 ventilated-storage guide), two-generation action plan, timed VO, editing map, review gates, and publication metrics in `docs/GORENGAN_VISUAL_EXPLAINER_DOLA_EXPERIMENT_CHECKPOINT_v1.md`. Actual assets must be prepared and attached before generation. Generation, review, publication, and performance validation remain pending. This does not establish a permanent format or guarantee views.
 - **Approval:** Owner explicitly approved proceeding with the gorengan experiment and requested checkpoint, commit, and push on 2026-11-13.
+
+
+## D-008 — Adopt the fixed DOLA prompt structure and beat rules
+- **Status:** APPROVED (Mode M planned cuts is PROPOSED and not approved)
+- **Date:** 2026-11-14
+- **Decision:** Adopt `docs/DOLA_PROMPT_STRUCTURE_STANDARD_v1.md` as a subordinate companion to the parent DOLA Production Standard v1.1. Every DOLA prompt follows its fixed section order (starting with the mandatory AI-character disclosure), its beat rules, and its pre-submit checklist; every output is inspected with its acceptance gate. Single-take Mode S is the default. Mode M (planned cuts) is recorded as a proposal and must not be used until separately approved.
+- **Rationale:** Credits are scarce (one generation per account per clip), and the Misi Mustahil Klip A and Klip B reviews (2026-11-10) showed avoidable failures: a no-cut instruction contradicted by several camera setups, reversals without a visible cause, a long static hold, a missing end pose, and a start state that did not match the continuity frame.
+- **Impact:** The structure binds authors; it does not guarantee DOLA compliance. It adds rules without waiving any parent requirement and applies to the gorengan experiment prompts (D-007) as well, where its fit for food and object explainers is untested. Effectiveness stays `VERIFICATION_REQUIRED` until a clip generated from this structure is reviewed.
+- **Approval:** Owner requested a prompt structure that DOLA must follow and replied "Setuju" to commit and push; Mode M has not been explicitly approved.
+
+
+## D-009 — Revise the DOLA prompt structure to v1.1 and record the Tari Piring Clip 01 experiment
+- **Status:** APPROVED AS WORKING RULES (R1 to R6 have partial observed support; R7 and R8 are provisional and untested). Mode M planned cuts remains PROPOSED and not approved.
+- **Date:** 2026-11-14
+- **Decision:** Update `docs/DOLA_PROMPT_STRUCTURE_STANDARD_v1.md` to v1.1 with rules R1 to R8 (start state from the actual first frame; frame the widest element; camera stop by composition and time; no hold block; quantified visible cause; declared combined move; sequence the subject's span after final framing; amplitude caps and plausibility check) and acceptance-gate items 11 to 13. Record the Tari Piring Clip 01 comparison and the pending v3 prompt in `docs/TARI_PIRING_DOLA_CHECKPOINT_v1.md`.
+- **Rationale:** In the Tari Piring comparison the Claude-structured prompt v2 scored about 7.2/10 against about 6.1 for v1 and about 3.9 for the ChatGPT-written prompt (working editorial scores), but was not highest on every criterion: plates left the frame for about 3.5 s mid-clip and voice-over alignment was lower than v1.
+- **Impact:** All DOLA prompts follow v1.1 and its checklist. The rules bind authors; they do not guarantee DOLA compliance. The v1 and v2 runs used visibly different first frames, so improvement cannot be attributed to the prompt alone. Effectiveness stays `VERIFICATION_REQUIRED` until Clip 01 v3 is generated and reviewed.
+- **Approval:** The owner had set a condition that the Claude prompt must score highest on every criterion; that condition was not met, and the owner then explicitly requested the checkpoint and rules update with commit and push on 2026-11-14 while testing v3.
+
+
+## D-010 — Adopt the cross-agent change protocol
+- **Status:** APPROVED
+- **Date:** 2026-11-14
+- **Decision:** Adopt `docs/CROSS_AGENT_CHANGE_PROTOCOL_v1.md`: Claude authors and tests change packs on a clean clone and audits `main` after the commit; ChatGPT, which has GitHub write access through its connector, applies each pack exactly and reports a read-back; the owner forwards a single pack file. A change is closed only after the audit.
+- **Rationale:** Two agents writing to the same `main` already produced conflicts (`main` advanced by 35 commits while a change was being prepared), and Claude in the free web chat cannot write to GitHub or share a local repository with ChatGPT. The owner's daily usage is limited, so the flow minimizes manual steps to one forwarded file.
+- **Impact:** Writer-side validator claims are limited to what the writer ran. A blocked or preflight-only result is reported in chat without a commit, because such commits move the base (observed twice on 2026-11-15). Direct writes to `main` are used for now; branch-per-change is the fallback if conflicts recur. The roles table is revisited when agent capabilities change.
+- **Approval:** The owner agreed to the proposed protocol on 2026-11-14 ("ok mari kita lakukan"). The owner did not explicitly choose between direct-to-main and branch-per-change; direct-to-main was the recommendation and is adopted until the owner says otherwise.
+
+
+## D-011 — Revise the DOLA prompt structure to v1.2
+- **Status:** APPROVED AS WORKING RULES (R9 and R10 adopted provisionally; R11 and R12 are hypotheses; R8 downgraded to a guideline). Mode M planned cuts remains PROPOSED and not approved.
+- **Date:** 2026-11-17
+- **Decision:** Update `docs/DOLA_PROMPT_STRUCTURE_STANDARD_v1.md` to v1.2: add R9 (disclosure clarifier line), R10 (audit each clip against its own storyboard assignment), R11 (settle into the end pose), R12 (do not rely on mid-clip camera moves), downgrade R8, and add acceptance-gate item 14 (audio check). Record the Tari Piring Clip 02, Clip 03, and assembled-video reviews in `docs/TARI_PIRING_DOLA_CHECKPOINT_v1.md`.
+- **Rationale:** Across Clip 02 v1, Clip 02 v2, and Clip 03 v1 (working averages about 6.4, 7.4, and 7.9 out of 10), on-screen disclosure text appeared once without R9 and not in two runs with it; generated audio appeared in two of four clips despite instructions; a declared mid-clip pull-back did not occur; numeric tilt targets were not followed.
+- **Impact:** R9 to R12 rest on two observations each with confounds, and each variant was one generation. Effectiveness stays `VERIFICATION_REQUIRED`. No parent requirement is waived.
+- **Approval:** The owner asked on 2026-11-17 to update the checkpoint and push ("update ke checkpoint, lalu commit dan push") after the reviews were presented.
+
+## D-012 — Record the shot-variety reference analysis (hypotheses only)
+- **Status:** RECORDED (EXPERIMENTAL). No new standard is adopted. Mode M remains not approved.
+- **Date:** 2026-11-17
+- **Decision:** Record the analysis of two reference videos and the gap against the Tari Piring assembly in `docs/VIDEO_AI_SHOT_VARIETY_REFERENCE_ANALYSIS_v1.md`, with a proposed standard (S1 to S8) marked PROPOSED. The proposed thresholds are to be tested by A/B before any adoption.
+- **Rationale:** The owner observed that the assembled video lacks the multiple backgrounds and camera techniques seen in successful references. Measurement confirmed it: about 3 to 5 camera views and a 6 to 10 s average shot length versus 14 to 17 shots at about 2.5 s.
+- **Impact:** The references come from one creator and one niche; no performance data exists for them. Whether to re-edit with the toolkit, approve Mode M, or build a new format is an open owner decision.
+- **Approval:** The owner asked to study the references and apply them to later ideas, then to record the result in the checkpoint on 2026-11-17.

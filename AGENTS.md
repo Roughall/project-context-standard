@@ -19,6 +19,8 @@ Read `STANDARD.md`, `project.yaml`, `PROJECT_STATUS.md`, `ARCHITECTURE.md`, `DEC
 - The DOLA Production Standard is the parent, cross-niche production rule. A new niche, theme, story, character, product, or channel does not reset or override it.
 - For each shot, map actual subject, object, environment, storyboard, and continuity image files as applicable. A filename, asset ID, description, or URL in prompt text is not a substitute for attaching the actual image through the supported DOLA reference input.
 - Never claim a reference is attached or ready unless the actual file is available. If a required image is missing, list it as MISSING and request/prepare it before generation.
+- Also follow `docs/DOLA_PROMPT_STRUCTURE_STANDARD_v1.md` (subordinate to the parent standard) for the fixed prompt section order, beat rules, and post-generation acceptance gate.
+- Follow `docs/CROSS_AGENT_CHANGE_PROTOCOL_v1.md` when applying or auditing a change pack from another agent.
 - Direct DOLA shot by shot; include starting state, one primary action, ending state, camera, continuity locks, and relevant negatives.
 - Preserve actual sale-product footage as the source of truth; do not generate a replacement that misrepresents the product.
 - Content checkpoints may change creative strategy, but may not silently weaken production requirements. Only a deliberate, documented standard revision can do that.

@@ -172,6 +172,16 @@ A second Klip 1 generation was reviewed after changing the output canvas to hori
 ### Verification limits
 Character likeness/wardrobe and exact grocery matching against the approved master references were not conclusively verified in this review. The next test must compare the actual attached references with the generated output. The 16:9 test does not validate the entire DOLA workflow or later story beats.
 
-## 10. Status and limitations
+## 10. Case study update: Misi Mustahil — Klip A and Klip B, vertical 9:16 (2026-11-10)
+
+Two 10-second generations were reviewed (720x1280, 24 fps, 10.08 s each; one generation per account). Evidence references: SHA-256 `e2e403891abe1d1b5d1f1a24bc3fbd45f7e8723ca615c6c193ef484bf9df8e4b` (Klip A, file `Musala_Veranda_Night__1_.mp4`) and `96105de6be7bd0e9d9a2dd43b1d57fab74972b1f70f955bb5a34d593ebe115b8` (Klip B, file `Bambang_s_Grocery_Rearrangement.mp4`). The review used extracted frames and file properties only; audio content was not assessed.
+
+**Klip A (problem):** one continuous, near-locked take; the conflict (heavy rice bag plus grocery pile beside a small motorcycle) was readable in frame one. Weaknesses: the bag did not visibly overhang or slip, so the reason for lowering it was unclear; the last 3 seconds were a static hold; the bag ended on top of the pile rather than beside it; a large rear cargo rack was present. Working editorial scores: hook 7/10, failure legibility 5/10, retention 6/10 for 0-7 s and 2/10 for 7-10 s.
+
+**Klip B (solution):** the loading sequence was legible and fast-paced, but it produced about four cuts despite a no-cut instruction, did not match the supplied continuity start state, changed light (warm in A, overcast in B), added a rear basket not seen in A, ended mid-action without the requested end pose, and showed a readable license plate whose digits varied between shots. Working editorial scores: opening 7/10, strategy clarity 6/10, payoff 5/10, retention 7/10.
+
+**Consequences:** prompt structure and beat rules are now defined in `DOLA_PROMPT_STRUCTURE_STANDARD_v1.md` (subordinate to the parent standard). Neither clip is approved for publication, the 15-second edit has not been assembled, and likeness against the master references remains unverified.
+
+## 11. Status and limitations
 
 This checkpoint is an approved working production guardrail based on one reviewed pilot draft. It is not evidence that the revised prompts will achieve perfect DOLA adherence. DOLA behavior, reference controls, and model limits must be verified in actual generations. Record failures and revise one major variable at a time.

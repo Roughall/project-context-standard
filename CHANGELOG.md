@@ -1,3 +1,10 @@
+## 2026-11-17 — Apply DOLA prompt structure v1.2, Tari Piring checkpoint, shot-variety analysis, and cross-agent protocol (content dated 2026-11-14 to 2026-11-17)
+- Added `docs/DOLA_PROMPT_STRUCTURE_STANDARD_v1.md` (v1.2): fixed prompt section order, rules R1 to R12 (R8 downgraded to a guideline), acceptance-gate items 1 to 14, template, checklist, and evidence rows. Planned-cut Mode M remains proposed only.
+- Added `docs/TARI_PIRING_DOLA_CHECKPOINT_v1.md`: Tari Piring Clips 01 to 03, the assembled-video audit, working scores, and the prompts as run; Clip 01 v3 recorded as owner-reported and not audited.
+- Added `docs/VIDEO_AI_SHOT_VARIETY_REFERENCE_ANALYSIS_v1.md`: two reference videos analyzed for shot variety, the gap against the assembly, and a proposed (not adopted) standard.
+- Added `docs/CROSS_AGENT_CHANGE_PROTOCOL_v1.md` and a pointer in `AGENTS.md`. Recorded decisions D-008 to D-012, the reviews and audit results in `TEST_RESULTS.md`, and updated project status and handoff.
+- Verification: see `TEST_RESULTS.md`. Effectiveness of the rules is untested; the change pack is not closed until Claude's audit of `main` is recorded.
+
 ## 2026-11-15 — Record CHATGPT_UPDATE_PACK v2 preflight
 - Recorded that all 11 exact FIND targets in the rebuilt v2 pack matched `main` exactly once at `ec00ef7`.
 - The pack itself was not applied: no new files or replacements were written, and no pack commit, post-change read-back, or validator run is claimed.
