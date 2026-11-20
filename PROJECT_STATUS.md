@@ -2,7 +2,7 @@
 
 - **Project:** Project Context Standard
 - **Overall status:** IN_PROGRESS
-- **Last updated:** 2026-11-12
+- **Last updated:** 2026-11-21
 - **DOLA prompt disclosure:** Standard v1.1 requires the AI-character disclosure as the first text of every DOLA prompt, with an explicit exception/clarification for authentic real-animal and product footage.
 - **Mandatory production rule:** DOLA Production Standard v1.0 is the parent, cross-niche rule for every DOLA project and content theme. See `docs/DOLA_PRODUCTION_STANDARD_v1.md` and decision D-003.
 
@@ -25,6 +25,7 @@ Maintain reusable repository-first context and agent handoff standards.
 - A retention-first Indonesian Shorts formats checkpoint v1.0 has been committed under `docs/RETENTION_FIRST_INDONESIAN_SHORTS_FORMATS_CHECKPOINT_v1.md`.
 - **New working niche decision:** Bandaro Betta.ID is positioned as general-audience Indonesian betta entertainment, mixed humor and casual Indonesian language, with 15-second short videos. Five recurring series and the first three pilots are documented in `docs/BANDARO_BETTA_INDONESIAN_15S_NICHE_CHECKPOINT_v1.md`. This is an approved working direction; performance remains unvalidated until published pilots are measured.
 - **Bandaro Pilot 01 DOLA prompt pack:** Added `docs/BANDARO_PILOT01_DOLA_PROMPT_v1.md` with two AI-character shot prompts and one authentic Halfmoon footage insert. Prompt pack committed to `main`; generation is blocked pending actual reference assets and selected fish footage. See decision D-005.
+- **Bandaro Idea 02 — Healing Murah Meriah:** Added `docs/BANDARO_IDEA02_HEALING_DOLA_TEST_CHECKPOINT_v1.md` with the owner-retained 10-second Mode M prompt, four planned shots, three cuts, varied camera moves, and the authentic-fish edit split. One-off Mode M test approved by D-013; reference assets and generation remain MISSING/VERIFICATION_REQUIRED. No DOLA result or effectiveness is claimed.
 
 
 - Added `docs/GORENGAN_VISUAL_EXPLAINER_DOLA_EXPERIMENT_CHECKPOINT_v1.md` (2026-11-13): Track A Visual Explainer, 20-second target, two 10-second DOLA generations, reference asset map, timed VO, audio/editing plan, and evaluation gates. Status is EXPERIMENTAL; actual reference assets, DOLA generation, review, and publication metrics are pending.
@@ -50,13 +51,15 @@ Maintain reusable repository-first context and agent handoff standards.
 | Validate DOLA Klip 1 prompt adherence (horizontal 16:9 iteration) | VERIFICATION_REQUIRED | Second generation reviewed; partial compliance only. Targeted regeneration still required |
 | Validate revised DOLA workflow across the pilot | VERIFICATION_REQUIRED | Klip 1 is not approved; later shots and full-story payoff remain unverified |
 | Run repository validator | PASS (basic) | `python scripts/validate_context.py` returned PASS on `main` at `ab933b1`; it checks only file presence and manifest top-level keys, and `project.yaml` still has placeholder values |
+| Record Bandaro Idea 02 “Healing Murah Meriah” one-off DOLA prompt | PASS (checkpoint recorded) / VERIFICATION_REQUIRED (generation and output audit) | `docs/BANDARO_IDEA02_HEALING_DOLA_TEST_CHECKPOINT_v1.md`, D-013; actual references and authentic fish footage remain MISSING; Mode M is approved only for this experiment |
 
 ## Blockers
 - Bandaro niche performance and sales impact are not yet validated by published pilots.
+- Bandaro Idea 02 requires actual subject/object/environment references and authentic fish footage before generation; the prompt has not been tested.
 - Competitive uniqueness of prior Video_AI formats has not been established.
 - Full repository validation remains unverified.
 - The four reference videos' exact source applications and full audio/voice-over characteristics remain unverified.
 - No format track has yet been selected as the next Video_AI experiment.
 
 ## Next action
-Decide how to improve the Tari Piring assembly: re-edit with the shot-variety toolkit (punch-ins, inserts, captions, CTA, audio bed, loudness), approve or reject Mode M for new generations, or build a new format; test by A/B against the current version. Verify any cultural facts before captions or voice-over. Previous queue: For the reference-video study, complete audio transcription/voice-delivery analysis, then choose a format track or same-story A/B/C comparison and prepare a timed master script plus shot-by-shot storyboard before generating any DOLA prompts. For Bandaro, collect actual reference assets and real Halfmoon footage, then produce and publish the three pilots in `docs/BANDARO_BETTA_INDONESIAN_15S_NICHE_CHECKPOINT_v1.md`. Separately, continue the DOLA Klip 1 targeted regeneration and run `python scripts/validate_context.py` in a local checkout when available.
+Decide how to improve the Tari Piring assembly: re-edit with the shot-variety toolkit (punch-ins, inserts, captions, CTA, audio bed, loudness), run and audit the one-off Bandaro Idea 02 Mode M test; general approval of Mode M remains open, or build a new format; test by A/B against the current version. Verify any cultural facts before captions or voice-over. Previous queue: For the reference-video study, complete audio transcription/voice-delivery analysis, then choose a format track or same-story A/B/C comparison and prepare a timed master script plus shot-by-shot storyboard before generating any DOLA prompts. For Bandaro, collect actual reference assets and real Halfmoon footage, then produce and publish the three pilots in `docs/BANDARO_BETTA_INDONESIAN_15S_NICHE_CHECKPOINT_v1.md`. Separately, continue the DOLA Klip 1 targeted regeneration and run `python scripts/validate_context.py` in a local checkout when available.

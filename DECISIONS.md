@@ -106,3 +106,12 @@ Record approved decisions and their rationale. Do not silently reverse them.
 - **Rationale:** The owner observed that the assembled video lacks the multiple backgrounds and camera techniques seen in successful references. Measurement confirmed it: about 3 to 5 camera views and a 6 to 10 s average shot length versus 14 to 17 shots at about 2.5 s.
 - **Impact:** The references come from one creator and one niche; no performance data exists for them. Whether to re-edit with the toolkit, approve Mode M, or build a new format is an open owner decision.
 - **Approval:** The owner asked to study the references and apply them to later ideas, then to record the result in the checkpoint on 2026-11-17.
+
+
+## D-013 — Approve a one-off Mode M test for Bandaro Idea 02
+- **Status:** APPROVED FOR ONE EXPERIMENT ONLY (generation and output review pending)
+- **Date:** 2026-11-21
+- **Decision:** Retain and run one experimental 10-second DOLA source prompt for Bandaro Idea 02, “Healing Murah Meriah,” using four planned shots and three cuts. In the final 15-second edit, use source seconds 0–5 as the opening, authentic betta footage for final-video seconds 5–10, and source seconds 5–10 as the closing. The prompt is recorded in `docs/BANDARO_IDEA02_HEALING_DOLA_TEST_CHECKPOINT_v1.md`.
+- **Rationale:** The owner requested a camera plan with varied shot sizes, angles, and controlled moves after the previous clip audit found that its visual story did not communicate the intended idea. The trial keeps subject, object, and environment appearance under the actual image references and separates authentic fish footage from DOLA-generated human footage.
+- **Impact:** This approval applies only to this one Idea 02 experiment. It does not change the Mode S default, approve Mode M generally, or revise `docs/DOLA_PROMPT_STRUCTURE_STANDARD_v1.md`. Required reference images and the selected authentic fish footage are still MISSING. Generation, clip review, edit review, and effectiveness remain `VERIFICATION_REQUIRED`.
+- **Approval:** Owner explicitly requested the revised multi-shot prompt and instructed that it be retained pending successful generation in the conversation on 2026-11-21.

@@ -76,6 +76,7 @@ Maintain repository-first project context and continue the Video_AI reference-vi
 - `docs/DOLA_PRODUCTION_STANDARD_v1.md` — mandatory parent DOLA production rules across all niches and themes.
 - `docs/BANDARO_BETTA_INDONESIAN_15S_NICHE_CHECKPOINT_v1.md` — latest working niche, five series, pilot scripts, inventory alignment, conversion path, and measurement.
 - `docs/BANDARO_PILOT01_DOLA_PROMPT_v1.md` — shot-by-shot prompt pack for Bandaro Pilot 01.
+- `docs/BANDARO_IDEA02_HEALING_DOLA_TEST_CHECKPOINT_v1.md` — retained one-off Mode M prompt for Bandaro Idea 02; generation and review pending.
 - `docs/DOLA_SHOT_CONTROLLED_PRODUCTION_CHECKPOINT_v1.md` — DOLA shot-control and pilot review.
 - `PROJECT_STATUS.md` — milestones, verification state, and next actions.
 - `DECISIONS.md` — approved decisions and experimental records.
@@ -99,3 +100,12 @@ Maintain repository-first project context and continue the Video_AI reference-vi
 - Every generated shot begins with the exact AI-character disclosure. The real fish insert must be identified as authentic footage and must not be replaced or materially altered by AI.
 - **Do not generate yet:** actual fictional talent, wallet, smartphone, and environment references plus the selected available Halfmoon video are MISSING. Attach actual files in the DOLA workflow before generation. Replace stock-ID placeholder only with a verified live inventory ID.
 - DOLA is not connected to this workspace; no generation or output review has occurred. Keep status as pending until the owner/operator runs and reviews the shots.
+
+
+## Bandaro Idea 02 — “Healing Murah Meriah” DOLA test
+- Checkpoint: `docs/BANDARO_IDEA02_HEALING_DOLA_TEST_CHECKPOINT_v1.md`.
+- The owner asked to retain this prompt pending a successful generation. D-013 approves Mode M for this one experiment only; the DOLA prompt standard and Mode S default are unchanged.
+- The source prompt describes four planned shots at 0–2.5, 2.5–5, 5–7.5, and 7.5–10 s, with cuts at 2.5, 5, and 7.5 s. The camera plan uses a short dolly-in, high-angle tilt, over-the-shoulder lateral slide with rack focus, and a three-quarter push-in.
+- Intended final edit: DOLA source 0–5 s, authentic betta footage 5–10 s, then DOLA source 5–10 s; final runtime 15 s.
+- Actual subject/object/environment references and authentic fish footage remain MISSING. Attach them through the DOLA inputs before generation. Keep the real fish insert authentic; do not generate a substitute.
+- DOLA generation and output audit have not occurred. After generation, inspect all four shots, three cut points, reference adherence, actual camera moves, runtime, hook, payoff, CTA, and the assembled edit. Do not claim Mode M effectiveness or approve publication before review.

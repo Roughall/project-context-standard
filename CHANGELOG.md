@@ -1,3 +1,9 @@
+## 2026-11-21 — Record Bandaro Idea 02 “Healing Murah Meriah” DOLA test prompt
+- Added `docs/BANDARO_IDEA02_HEALING_DOLA_TEST_CHECKPOINT_v1.md` with the prompt retained by the owner, a four-shot/three-cut camera plan, the 10-second-source to 15-second-edit map, VO/CTA, and missing-asset gates.
+- Recorded D-013 approving Mode M for this one test only; the general Mode M status and DOLA prompt standard remain unchanged.
+- DOLA generation and output review remain `VERIFICATION_REQUIRED`; no successful generation or performance result is claimed.
+- Validator `python scripts/validate_context.py` was not run in this GitHub-connector workflow; see `TEST_RESULTS.md`.
+
 ## 2026-11-17 — Apply DOLA prompt structure v1.2, Tari Piring checkpoint, shot-variety analysis, and cross-agent protocol (content dated 2026-11-14 to 2026-11-17)
 - Added `docs/DOLA_PROMPT_STRUCTURE_STANDARD_v1.md` (v1.2): fixed prompt section order, rules R1 to R12 (R8 downgraded to a guideline), acceptance-gate items 1 to 14, template, checklist, and evidence rows. Planned-cut Mode M remains proposed only.
 - Added `docs/TARI_PIRING_DOLA_CHECKPOINT_v1.md`: Tari Piring Clips 01 to 03, the assembled-video audit, working scores, and the prompts as run; Clip 01 v3 recorded as owner-reported and not audited.
