@@ -115,3 +115,12 @@ Record approved decisions and their rationale. Do not silently reverse them.
 - **Rationale:** The owner requested a camera plan with varied shot sizes, angles, and controlled moves after the previous clip audit found that its visual story did not communicate the intended idea. The trial keeps subject, object, and environment appearance under the actual image references and separates authentic fish footage from DOLA-generated human footage.
 - **Impact:** This approval applies only to this one Idea 02 experiment. It does not change the Mode S default, approve Mode M generally, or revise `docs/DOLA_PROMPT_STRUCTURE_STANDARD_v1.md`. Required reference images and the selected authentic fish footage are still MISSING. Generation, clip review, edit review, and effectiveness remain `VERIFICATION_REQUIRED`.
 - **Approval:** Owner explicitly requested the revised multi-shot prompt and instructed that it be retained pending successful generation in the conversation on 2026-11-21.
+
+
+## D-014 — Require a final compliance statement in every DOLA prompt
+- **Status:** APPROVED
+- **Date:** 2026-11-21
+- **Decision:** Update `docs/DOLA_PROMPT_STRUCTURE_STANDARD_v1.md` to v1.3 and require every DOLA prompt to end with this exact final line: `it's not contain copyrighted or policy-violating content`.
+- **Rationale:** The owner explicitly requested a consistent closing statement at the end of each prompt.
+- **Impact:** Add the exact text to the reusable prompt template and pre-submit checklist. This authoring requirement does not replace post-generation review or independently certify generated content. It does not change the parent DOLA Production Standard or the default take mode.
+- **Approval:** Explicitly requested by the project owner in the conversation on 2026-11-21.

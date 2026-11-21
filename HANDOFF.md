@@ -103,9 +103,9 @@ Maintain repository-first project context and continue the Video_AI reference-vi
 
 
 ## Bandaro Idea 02 — “Healing Murah Meriah” DOLA test
-- Checkpoint: `docs/BANDARO_IDEA02_HEALING_DOLA_TEST_CHECKPOINT_v1.md`.
-- The owner asked to retain this prompt pending a successful generation. D-013 approves Mode M for this one experiment only; the DOLA prompt standard and Mode S default are unchanged.
-- The source prompt describes four planned shots at 0–2.5, 2.5–5, 5–7.5, and 7.5–10 s, with cuts at 2.5, 5, and 7.5 s. The camera plan uses a short dolly-in, high-angle tilt, over-the-shoulder lateral slide with rack focus, and a three-quarter push-in.
-- Intended final edit: DOLA source 0–5 s, authentic betta footage 5–10 s, then DOLA source 5–10 s; final runtime 15 s.
-- Actual subject/object/environment references and authentic fish footage remain MISSING. Attach them through the DOLA inputs before generation. Keep the real fish insert authentic; do not generate a substitute.
-- DOLA generation and output audit have not occurred. After generation, inspect all four shots, three cut points, reference adherence, actual camera moves, runtime, hook, payoff, CTA, and the assembled edit. Do not claim Mode M effectiveness or approve publication before review.
+- Checkpoint: `docs/BANDARO_IDEA02_HEALING_DOLA_TEST_CHECKPOINT_v1.md` v1.1.
+- The owner-approved 10-second Mode M source was generated as `Test03.mp4` and visually reviewed. Working editorial ratings: hook 5/10, payoff 6/10, CTA 2/10, camera variety 6/10, story clarity 5/10; these are subjective, not performance metrics.
+- The reviewed source shows a backpack detail, a seated profile, then a close reaction. The bag-to-relaxation transition is abrupt; the low-cost healing premise is not clear from the visuals alone. No CTA is in the source; add the planned VO and `KOMEN: HEALING` overlay in editing. A Dola AI watermark is visible.
+- Exact compliance with four shots, three cuts, reference matching, and the 5-second split remains `VERIFICATION_REQUIRED`; the assembled 15-second edit has not been reviewed. Do not claim Mode M effectiveness or approve publication.
+- Intended final edit remains DOLA source 0–5 s, authentic betta footage 5–10 s, then DOLA source 5–10 s; final runtime 15 s. Keep actual fish footage authentic.
+- Prompt Structure Standard v1.3 requires the exact final prompt line `it's not contain copyrighted or policy-violating content`. Test03 was generated before this footer update.

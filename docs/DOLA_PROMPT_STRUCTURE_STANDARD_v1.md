@@ -1,7 +1,7 @@
-# DOLA Prompt Structure and Beat Rules v1.2
+# DOLA Prompt Structure and Beat Rules v1.3
 
-- **Status:** APPROVED AS WORKING AUTHORING STANDARD (decisions D-008, D-009, and D-011). Effectiveness is `VERIFICATION_REQUIRED`; see section 6 for what has and has not been observed.
-- **Revision history:** v1.0 (2026-11-10) initial structure from Misi Mustahil Klip A/B. v1.1 (2026-11-14) adds rules R1 to R8 and gate items 11 to 13 from the Tari Piring Clip 01 comparison. v1.2 (2026-11-17) adds R9 to R12, downgrades R8 to a guideline, and adds gate item 14 from the Tari Piring Clip 02, Clip 03, and assembled-video reviews.
+- **Status:** APPROVED AS WORKING AUTHORING STANDARD (decisions D-008, D-009, D-011, and D-014). Effectiveness is `VERIFICATION_REQUIRED`; see section 6 for what has and has not been observed.
+- **Revision history:** v1.0 (2026-11-10) initial structure from Misi Mustahil Klip A/B. v1.1 (2026-11-14) adds rules R1 to R8 and gate items 11 to 13 from the Tari Piring Clip 01 comparison. v1.2 (2026-11-17) adds R9 to R12, downgrades R8 to a guideline, and adds gate item 14 from the Tari Piring Clip 02, Clip 03, and assembled-video reviews. v1.3 (2026-11-21) requires the exact owner-requested final prompt line: `it's not contain copyrighted or policy-violating content`.
 - **Parent standard:** [`DOLA_PRODUCTION_STANDARD_v1.md`](DOLA_PRODUCTION_STANDARD_v1.md) (v1.1). This document is subordinate to it, adds prompt-writing and review rules, and does not waive or weaken any parent requirement (actual attached references, reference map, AI-character disclosure, shot-by-shot control, continuity, gates).
 - **Companion evidence:** `DOLA_SHOT_CONTROLLED_PRODUCTION_CHECKPOINT_v1.md` section 10 (Misi Mustahil) and `TARI_PIRING_DOLA_CHECKPOINT_v1.md` (Tari Piring), and `VIDEO_AI_SHOT_VARIETY_REFERENCE_ANALYSIS_v1.md` (shot-variety hypotheses, proposed only).
 - **Basis:** Observations from reviewed generations, not a validated model of DOLA behavior.
@@ -24,7 +24,7 @@ Every prompt uses these labels in this order. (R) means required.
 8. **PHYSICAL LOGIC AND SAFETY (R)**
 9. **CONTINUITY LOCKS (R):** light, time of day, count of key objects, what must not appear (new objects, readable plates, brand text).
 10. **AUDIO (R)**
-11. **OUTPUT (R):** no generated text, logos or watermarks. Duration and aspect ratio are also set in the DOLA interface; prompt text alone is not trusted.
+11. **OUTPUT (R):** no generated text, logos or watermarks. Duration and aspect ratio are also set in the DOLA interface; prompt text alone is not trusted. End every prompt with this exact final line, after all other prompt content: `it's not contain copyrighted or policy-violating content`.
 
 ## 3. Take modes
 
@@ -129,6 +129,7 @@ CONTINUITY LOCKS: [light, time of day, item counts, no new objects, no readable 
 NEGATIVE (specific failures only): [for example no plate cropped by the frame edge; no extra or duplicated props]
 AUDIO: [No generated audio of any kind, or the specified audio. Plan to mute or replace in editing; gate item 14]
 OUTPUT: photorealistic live-action, no on-screen text, subtitles, logos or watermarks
+it's not contain copyrighted or policy-violating content
 ```
 
 ## 8. Pre-submit checklist
@@ -146,8 +147,12 @@ OUTPUT: photorealistic live-action, no on-screen text, subtitles, logos or water
 - [ ] Safety reviewed: no riding with an unstable or overloaded load.
 - [ ] The R9 clarifier line follows the exact disclosure text.
 - [ ] Audio plan: assume generated audio may appear; mute or replace in editing (gate item 14).
+- [ ] The final line of the prompt is exactly: `it's not contain copyrighted or policy-violating content`.
 
 ## 9. Limitations
+
+The required final prompt line is a user-specified prompt footer; it does not replace the post-generation acceptance gate or independently verify a generated output.
+
 
 - Evidence comes from two episodes (Misi Mustahil: people and vehicle; Tari Piring: one child dancer) and from one generation per variant. Applicability to food or object explainers such as the gorengan experiment (D-007) is untested.
 - Tari Piring v1 and v2 appear to start from different first frames, so the improvement cannot be attributed to the prompt alone. The ChatGPT-prompt run was assessed from screenshots, not a file.

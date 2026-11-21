@@ -1,3 +1,9 @@
+## 2026-11-21 — Update DOLA prompt structure to v1.3 and record Healing Murah source audit
+- Added the exact owner-requested final line `it's not contain copyrighted or policy-violating content` to the DOLA prompt template and pre-submit checklist; recorded D-014.
+- Updated the Bandaro Idea 02 checkpoint with the Test03.mp4 source-clip review and marked the assembled 15-second edit and cut-point verification as pending.
+- The Test03 source was generated before this v1.3 footer change; no claim is made that the footer was used in that generation.
+- Recorded the source audit and kept the final edit and Mode M effectiveness unverified; see `TEST_RESULTS.md`.
+
 ## 2026-11-21 — Record Bandaro Idea 02 “Healing Murah Meriah” DOLA test prompt
 - Added `docs/BANDARO_IDEA02_HEALING_DOLA_TEST_CHECKPOINT_v1.md` with the prompt retained by the owner, a four-shot/three-cut camera plan, the 10-second-source to 15-second-edit map, VO/CTA, and missing-asset gates.
 - Recorded D-013 approving Mode M for this one test only; the general Mode M status and DOLA prompt standard remain unchanged.

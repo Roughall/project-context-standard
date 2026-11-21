@@ -1,11 +1,11 @@
-# Bandaro Idea 02 — “Healing Murah Meriah” DOLA Test Checkpoint v1.0
+# Bandaro Idea 02 — “Healing Murah Meriah” DOLA Test Checkpoint v1.1
 
 - **Date:** 2026-11-21
-- **Status:** VERIFICATION_REQUIRED
+- **Status:** VERIFICATION_REQUIRED (source clip reviewed; final 15-second edit and references still pending)
 - **Type:** One-off creative production experiment; not a change to the general DOLA standard.
 - **Source idea:** Idea 2, “Healing Murah Meriah,” from the owner-provided `Bandaro_Betta_10_Ide_Konten_DOLA_v2_rev15s.docx`.
-- **Prompt state:** Owner asked to retain this prompt pending a successful DOLA generation. No generation or output review is recorded.
-- **Mode M scope:** One owner-approved test of a 10-second source with four planned shots. DOLA Prompt Structure Standard v1.2 remains unchanged; Mode M is not approved as the default or general production mode.
+- **Prompt state:** Test03.mp4, a 10-second DOLA source clip, has been generated and visually reviewed. The stored prompt below now ends with the v1.3 required footer. The final 15-second edit has not been reviewed.
+- **Mode M scope:** One owner-approved test of a 10-second source with four planned shots. DOLA Prompt Structure Standard v1.3 adds a required final prompt footer; Mode M is not approved as the default or general production mode.
 
 ## 1. Story and edit plan
 
@@ -93,12 +93,28 @@ NEGATIVE CONSTRAINTS: Exactly four planned shots and three planned cuts. No fish
 AUDIO: No generated speech, music, or singing. Mute generated audio; add voice-over and licensed sound in editing.
 
 OUTPUT: 9:16 vertical, 10 seconds, clean footage, no on-screen text, subtitles, logos, or watermarks.
+it's not contain copyrighted or policy-violating content
 ```
 
-## 4. Generation and review gate
+## 4. Generation and final-edit review gate
 
-- Attach the actual subject, environment, work-bag, chair, and START-01 images before generation.
-- Select the authentic betta footage for the edit; it is separate from the DOLA generation.
-- After generation, inspect all four planned shots, the three cut points, reference adherence, camera moves, story clarity, and the actual runtime.
-- Review the final 15-second edit for hook, payoff, CTA, and whether the real-fish insert connects naturally to the subject’s reaction.
-- Keep this experiment `VERIFICATION_REQUIRED` until the DOLA output and assembled edit have been inspected. No result, score, or Mode M effectiveness is claimed here.
+- Test03.mp4 has been generated and visually reviewed as a 10-second source clip; see section 5.
+- The actual subject, environment, work-bag, chair, and START-01 reference images are not included in this repository checkpoint, so reference matching remains unverified.
+- Select authentic betta footage for the edit; it is separate from the DOLA generation and must not be replaced by AI-generated fish.
+- Exact compliance with all four planned shots, three cuts, and the 5-second split match remains `VERIFICATION_REQUIRED` pending frame-by-frame review.
+- Review the final 15-second edit for hook, payoff, CTA, continuity, and whether the authentic fish insert connects naturally to the subject’s reaction.
+- Keep the experiment `VERIFICATION_REQUIRED` until the assembled edit and remaining continuity checks have been inspected. Source-clip editorial scores are recorded in section 5; no Mode M effectiveness or publication approval is claimed.
+
+
+## 5. Generated source clip audit — Test03.mp4
+
+- **File inspected:** `D:\Downloads\Projects\Affiliate\Test03.mp4` (the folder contains `Test03.mp4`; the requested spelling was Test3.mp4).
+- **Observed format:** approximately 10 seconds, vertical 9:16. A visible Dola AI watermark remains.
+- **Observed visual progression:** a tight backpack detail at the opening; a seated side/profile composition in the middle; a close reaction shot with a small smile near the end. This gives some composition variation, but the bag-to-relaxation transition is abrupt and the story does not clearly establish the low-cost healing premise by itself.
+- **Working editorial ratings:** hook 5/10; payoff 6/10; CTA 2/10; camera variety 6/10; story clarity 5/10. These are subjective review scores, not performance metrics.
+- **Hook:** the bag creates a brief curiosity cue but does not quickly communicate the budget problem or the promise of affordable healing.
+- **Payoff:** the relaxed expression communicates calm, but the specific healing activity/benefit is mostly implied rather than shown.
+- **CTA:** no CTA appears in this source clip; add the planned voice-over and `KOMEN: HEALING` overlay in the final edit.
+- **Camera/cut compliance:** the sampled playback showed three broad visual compositions. Exact compliance with four planned shots, three cuts, and the 5-second split match was not fully verified; keep this item `VERIFICATION_REQUIRED` until frame-by-frame review.
+- **Audio:** not assessed in this review.
+- **Next:** assemble the planned 15-second edit with authentic betta footage and CTA, then review its timing, continuity, hook, payoff, CTA, and fish-footage authenticity. Do not claim Mode M effectiveness or approve publication based on this source-only audit.
